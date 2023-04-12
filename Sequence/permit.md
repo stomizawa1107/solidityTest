@@ -1,7 +1,6 @@
 ```mermaid
 sequenceDiagram
     participant PostOrderFormUI
-    participant MarketUI
     participant EOA
     participant MarketSmartContract
     PostOrderFormUI->>EOA: 出品情報
