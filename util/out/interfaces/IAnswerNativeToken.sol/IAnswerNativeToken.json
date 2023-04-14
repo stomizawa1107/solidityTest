@@ -1,0 +1,433 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "address",
+              "name": "addr",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "score",
+              "type": "uint256"
+            }
+          ],
+          "internalType": "struct SAnswerNativeToken.LicenseCandidate",
+          "name": "candidate",
+          "type": "tuple"
+        }
+      ],
+      "name": "gimmeLicense",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_key",
+          "type": "address"
+        }
+      ],
+      "name": "licenseHolders",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "gimmeLicense((address,uint256))": "ef295716",
+    "licenseHolders(address)": "b75c30db"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"components\":[{\"internalType\":\"address\",\"name\":\"addr\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"score\",\"type\":\"uint256\"}],\"internalType\":\"struct SAnswerNativeToken.LicenseCandidate\",\"name\":\"candidate\",\"type\":\"tuple\"}],\"name\":\"gimmeLicense\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_key\",\"type\":\"address\"}],\"name\":\"licenseHolders\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"../contracts/src/A4/interfaces/IAnswerNativeToken.sol\":\"IAnswerNativeToken\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@openzeppelin/=lib/openzeppelin-contracts/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\",\":scal-std/=lib/scal-std/src/\",\":src/=../contracts/src/\",\":test/=../test/\"]},\"sources\":{\"../contracts/src/A4/interfaces/IAnswerNativeToken.sol\":{\"keccak256\":\"0xdc3f10f2bfbd882bfdb055556ee34c4cfc630dfd8f3326bd21383aa2402f830f\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b45bdd50d3788b7f1570fbc631fc7b0a15f124206d06da93c7fd100bcc8e392b\",\"dweb:/ipfs/QmTSSvqgXuyWPcHYgt8n7XNF8Mcs5caHjvJAwP5ioSyjEf\"]},\"../contracts/src/A4/interfaces/SAnswerNativeToken.sol\":{\"keccak256\":\"0xeb313fd13f203f7346fb67e5f3cad4cf1b5742b4ce06f564d6e96e05766df4a2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://727c7b08086e9371ff497619c8247e8059b1b400d50e36ffe605d4ca81744910\",\"dweb:/ipfs/QmZCNmXHabYFMWEYVZN68J2Ns756ErPPFdg1p57fuawTTt\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.19+commit.7dd6d404"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "struct SAnswerNativeToken.LicenseCandidate",
+              "name": "candidate",
+              "type": "tuple",
+              "components": [
+                {
+                  "internalType": "address",
+                  "name": "addr",
+                  "type": "address"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "score",
+                  "type": "uint256"
+                }
+              ]
+            }
+          ],
+          "stateMutability": "payable",
+          "type": "function",
+          "name": "gimmeLicense"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "_key",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "licenseHolders",
+          "outputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":@openzeppelin/=lib/openzeppelin-contracts/",
+        ":ds-test/=lib/forge-std/lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/",
+        ":openzeppelin-contracts/=lib/openzeppelin-contracts/",
+        ":scal-std/=lib/scal-std/src/",
+        ":src/=../contracts/src/",
+        ":test/=../test/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "../contracts/src/A4/interfaces/IAnswerNativeToken.sol": "IAnswerNativeToken"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "../contracts/src/A4/interfaces/IAnswerNativeToken.sol": {
+        "keccak256": "0xdc3f10f2bfbd882bfdb055556ee34c4cfc630dfd8f3326bd21383aa2402f830f",
+        "urls": [
+          "bzz-raw://b45bdd50d3788b7f1570fbc631fc7b0a15f124206d06da93c7fd100bcc8e392b",
+          "dweb:/ipfs/QmTSSvqgXuyWPcHYgt8n7XNF8Mcs5caHjvJAwP5ioSyjEf"
+        ],
+        "license": "MIT"
+      },
+      "../contracts/src/A4/interfaces/SAnswerNativeToken.sol": {
+        "keccak256": "0xeb313fd13f203f7346fb67e5f3cad4cf1b5742b4ce06f564d6e96e05766df4a2",
+        "urls": [
+          "bzz-raw://727c7b08086e9371ff497619c8247e8059b1b400d50e36ffe605d4ca81744910",
+          "dweb:/ipfs/QmZCNmXHabYFMWEYVZN68J2Ns756ErPPFdg1p57fuawTTt"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "../contracts/src/A4/interfaces/IAnswerNativeToken.sol",
+    "id": 57,
+    "exportedSymbols": {
+      "IAnswerNativeToken": [
+        56
+      ],
+      "SAnswerNativeToken": [
+        64
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:316:3",
+    "nodes": [
+      {
+        "id": 38,
+        "nodeType": "PragmaDirective",
+        "src": "32:24:3",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".17"
+        ]
+      },
+      {
+        "id": 40,
+        "nodeType": "ImportDirective",
+        "src": "58:78:3",
+        "nodes": [],
+        "absolutePath": "../contracts/src/A4/interfaces/SAnswerNativeToken.sol",
+        "file": "src/A4/interfaces/SAnswerNativeToken.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 57,
+        "sourceUnit": 65,
+        "symbolAliases": [
+          {
+            "foreign": {
+              "id": 39,
+              "name": "SAnswerNativeToken",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 64,
+              "src": "67:18:3",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          }
+        ],
+        "unitAlias": ""
+      },
+      {
+        "id": 56,
+        "nodeType": "ContractDefinition",
+        "src": "138:209:3",
+        "nodes": [
+          {
+            "id": 46,
+            "nodeType": "FunctionDefinition",
+            "src": "173:93:3",
+            "nodes": [],
+            "functionSelector": "ef295716",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "gimmeLicense",
+            "nameLocation": "182:12:3",
+            "parameters": {
+              "id": 44,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 43,
+                  "mutability": "mutable",
+                  "name": "candidate",
+                  "nameLocation": "238:9:3",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 46,
+                  "src": "195:52:3",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_LicenseCandidate_$63_memory_ptr",
+                    "typeString": "struct SAnswerNativeToken.LicenseCandidate"
+                  },
+                  "typeName": {
+                    "id": 42,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 41,
+                      "name": "SAnswerNativeToken.LicenseCandidate",
+                      "nameLocations": [
+                        "195:18:3",
+                        "214:16:3"
+                      ],
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 63,
+                      "src": "195:35:3"
+                    },
+                    "referencedDeclaration": 63,
+                    "src": "195:35:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_LicenseCandidate_$63_storage_ptr",
+                      "typeString": "struct SAnswerNativeToken.LicenseCandidate"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "194:54:3"
+            },
+            "returnParameters": {
+              "id": 45,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "265:0:3"
+            },
+            "scope": 56,
+            "stateMutability": "payable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 55,
+            "nodeType": "FunctionDefinition",
+            "src": "271:74:3",
+            "nodes": [],
+            "functionSelector": "b75c30db",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "licenseHolders",
+            "nameLocation": "280:14:3",
+            "parameters": {
+              "id": 49,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 48,
+                  "mutability": "mutable",
+                  "name": "_key",
+                  "nameLocation": "303:4:3",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 55,
+                  "src": "295:12:3",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 47,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "295:7:3",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "294:14:3"
+            },
+            "returnParameters": {
+              "id": 54,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 51,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 55,
+                  "src": "327:7:3",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 50,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "327:7:3",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 53,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 55,
+                  "src": "336:7:3",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 52,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "336:7:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "326:18:3"
+            },
+            "scope": 56,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IAnswerNativeToken",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          56
+        ],
+        "name": "IAnswerNativeToken",
+        "nameLocation": "148:18:3",
+        "scope": 57,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 3
+}

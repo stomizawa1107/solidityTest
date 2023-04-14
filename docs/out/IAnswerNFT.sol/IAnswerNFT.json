@@ -1,0 +1,325 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "buyBoosterPack",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "canEnterByOriginHolder",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_nft",
+          "type": "address"
+        }
+      ],
+      "name": "setNFT",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "buyBoosterPack()": "a3006abf",
+    "canEnterByOriginHolder()": "01eb528a",
+    "setNFT(address)": "f56e9c66"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"buyBoosterPack\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"canEnterByOriginHolder\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_nft\",\"type\":\"address\"}],\"name\":\"setNFT\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/snw-stomizawa/Desktop/SaGa/directoryFIx/contracts/src/A5/interfaces/IAnswerNFT.sol\":\"IAnswerNFT\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@openzeppelin/=../util/lib/openzeppelin-contracts/\",\":ds-test/=../util/lib/forge-std/lib/ds-test/src/\",\":forge-std/=../util/lib/forge-std/src/\",\":openzeppelin-contracts/=../util/lib/openzeppelin-contracts/\",\":scal-std/=../util/lib/scal-std/src/\",\":src/=../contracts/src/\",\":test/=../test/\"]},\"sources\":{\"/Users/snw-stomizawa/Desktop/SaGa/directoryFIx/contracts/src/A5/interfaces/IAnswerNFT.sol\":{\"keccak256\":\"0x6dbbf6e73f62d6ab2c2935453636f1632bee60127517c776aed25c6be90dc28c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://4f4c78d5eb44852b34f5c50a5abf85228097670ac2846ed7d696dc54232a0b72\",\"dweb:/ipfs/QmbGwsmSPYPG66ZCZTwLrdaH74zvXuQ32A47B6U1y6FNMg\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.19+commit.7dd6d404"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "stateMutability": "payable",
+          "type": "function",
+          "name": "buyBoosterPack"
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "canEnterByOriginHolder",
+          "outputs": [
+            {
+              "internalType": "bool",
+              "name": "",
+              "type": "bool"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "_nft",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "setNFT"
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":@openzeppelin/=../util/lib/openzeppelin-contracts/",
+        ":ds-test/=../util/lib/forge-std/lib/ds-test/src/",
+        ":forge-std/=../util/lib/forge-std/src/",
+        ":openzeppelin-contracts/=../util/lib/openzeppelin-contracts/",
+        ":scal-std/=../util/lib/scal-std/src/",
+        ":src/=../contracts/src/",
+        ":test/=../test/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "/Users/snw-stomizawa/Desktop/SaGa/directoryFIx/contracts/src/A5/interfaces/IAnswerNFT.sol": "IAnswerNFT"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "/Users/snw-stomizawa/Desktop/SaGa/directoryFIx/contracts/src/A5/interfaces/IAnswerNFT.sol": {
+        "keccak256": "0x6dbbf6e73f62d6ab2c2935453636f1632bee60127517c776aed25c6be90dc28c",
+        "urls": [
+          "bzz-raw://4f4c78d5eb44852b34f5c50a5abf85228097670ac2846ed7d696dc54232a0b72",
+          "dweb:/ipfs/QmbGwsmSPYPG66ZCZTwLrdaH74zvXuQ32A47B6U1y6FNMg"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "/Users/snw-stomizawa/Desktop/SaGa/directoryFIx/contracts/src/A5/interfaces/IAnswerNFT.sol",
+    "id": 2519,
+    "exportedSymbols": {
+      "IAnswerNFT": [
+        2518
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:210:42",
+    "nodes": [
+      {
+        "id": 2504,
+        "nodeType": "PragmaDirective",
+        "src": "32:24:42",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".17"
+        ]
+      },
+      {
+        "id": 2518,
+        "nodeType": "ContractDefinition",
+        "src": "58:184:42",
+        "nodes": [
+          {
+            "id": 2509,
+            "nodeType": "FunctionDefinition",
+            "src": "85:39:42",
+            "nodes": [],
+            "functionSelector": "f56e9c66",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "setNFT",
+            "nameLocation": "94:6:42",
+            "parameters": {
+              "id": 2507,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2506,
+                  "mutability": "mutable",
+                  "name": "_nft",
+                  "nameLocation": "109:4:42",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2509,
+                  "src": "101:12:42",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 2505,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "101:7:42",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "100:14:42"
+            },
+            "returnParameters": {
+              "id": 2508,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "123:0:42"
+            },
+            "scope": 2518,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 2512,
+            "nodeType": "FunctionDefinition",
+            "src": "129:43:42",
+            "nodes": [],
+            "functionSelector": "a3006abf",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "buyBoosterPack",
+            "nameLocation": "138:14:42",
+            "parameters": {
+              "id": 2510,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "152:2:42"
+            },
+            "returnParameters": {
+              "id": 2511,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "171:0:42"
+            },
+            "scope": 2518,
+            "stateMutability": "payable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 2517,
+            "nodeType": "FunctionDefinition",
+            "src": "177:63:42",
+            "nodes": [],
+            "functionSelector": "01eb528a",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "canEnterByOriginHolder",
+            "nameLocation": "186:22:42",
+            "parameters": {
+              "id": 2513,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "208:2:42"
+            },
+            "returnParameters": {
+              "id": 2516,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2515,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2517,
+                  "src": "234:4:42",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 2514,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "234:4:42",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "233:6:42"
+            },
+            "scope": 2518,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IAnswerNFT",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          2518
+        ],
+        "name": "IAnswerNFT",
+        "nameLocation": "68:10:42",
+        "scope": 2519,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 42
+}

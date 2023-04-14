@@ -1,0 +1,1001 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "address",
+              "name": "addr",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "score",
+              "type": "uint256"
+            }
+          ],
+          "internalType": "struct SAnswerNativeToken.LicenseCandidate",
+          "name": "candidate",
+          "type": "tuple"
+        }
+      ],
+      "name": "gimmeLicense",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "licenseHolders",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "addr",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "score",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x608060405234801561001057600080fd5b50610278806100206000396000f3fe6080604052600436106100295760003560e01c8063b75c30db1461002e578063ef29571614610091575b600080fd5b34801561003a57600080fd5b5061006e6100493660046101bb565b600060208190529081526040902080546001909101546001600160a01b039091169082565b604080516001600160a01b03909316835260208301919091520160405180910390f35b6100a461009f3660046101dd565b6100a6565b005b805181906001600160a01b031633146101155760405162461bcd60e51b815260206004820152602660248201527f596f7520617265206e6f7420746865206f776e6572206f66207468697320616360448201526531b7bab73a1760d11b60648201526084015b60405180910390fd5b670de0b6b3a76400003410156101675760508260200151116101675760405162461bcd60e51b815260206004820152600b60248201526a2cb7ba903330b4b632b21760a91b604482015260640161010c565b5033600090815260208181526040909120825181546001600160a01b0319166001600160a01b03909116178155910151600190910155565b80356001600160a01b03811681146101b657600080fd5b919050565b6000602082840312156101cd57600080fd5b6101d68261019f565b9392505050565b6000604082840312156101ef57600080fd5b6040516040810181811067ffffffffffffffff8211171561022057634e487b7160e01b600052604160045260246000fd5b60405261022c8361019f565b815260208301356020820152809150509291505056fea264697066735822122052f6b15d55363251f5aa1877c4ce1c105181ec1fbb873f121d77234620682b9a64736f6c63430008130033",
+    "sourceMap": "217:689:38:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052600436106100295760003560e01c8063b75c30db1461002e578063ef29571614610091575b600080fd5b34801561003a57600080fd5b5061006e6100493660046101bb565b600060208190529081526040902080546001909101546001600160a01b039091169082565b604080516001600160a01b03909316835260208301919091520160405180910390f35b6100a461009f3660046101dd565b6100a6565b005b805181906001600160a01b031633146101155760405162461bcd60e51b815260206004820152602660248201527f596f7520617265206e6f7420746865206f776e6572206f66207468697320616360448201526531b7bab73a1760d11b60648201526084015b60405180910390fd5b670de0b6b3a76400003410156101675760508260200151116101675760405162461bcd60e51b815260206004820152600b60248201526a2cb7ba903330b4b632b21760a91b604482015260640161010c565b5033600090815260208181526040909120825181546001600160a01b0319166001600160a01b03909116178155910151600190910155565b80356001600160a01b03811681146101b657600080fd5b919050565b6000602082840312156101cd57600080fd5b6101d68261019f565b9392505050565b6000604082840312156101ef57600080fd5b6040516040810181811067ffffffffffffffff8211171561022057634e487b7160e01b600052604160045260246000fd5b60405261022c8361019f565b815260208301356020820152809150509291505056fea264697066735822122052f6b15d55363251f5aa1877c4ce1c105181ec1fbb873f121d77234620682b9a64736f6c63430008130033",
+    "sourceMap": "217:689:38:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;368:58;;;;;;;;;;-1:-1:-1;368:58:38;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;368:58:38;;;;;;;;;;-1:-1:-1;;;;;575:32:68;;;557:51;;639:2;624:18;;617:34;;;;530:18;368:58:38;;;;;;;433:305;;;;;;:::i;:::-;;:::i;:::-;;;829:14;;;;-1:-1:-1;;;;;815:28:38;:10;:28;807:79;;;;-1:-1:-1;;;807:79:38;;1483:2:68;807:79:38;;;1465:21:68;1522:2;1502:18;;;1495:30;1561:34;1541:18;;;1534:62;-1:-1:-1;;;1612:18:68;;;1605:36;1658:19;;807:79:38;;;;;;;;;598:7:::1;586:9;:19;583:101;;;655:2;637:9;:15;;;:20;629:44;;;::::0;-1:-1:-1;;;629:44:38;;1890:2:68;629:44:38::1;::::0;::::1;1872:21:68::0;1929:2;1909:18;;;1902:30;-1:-1:-1;;;1948:18:68;;;1941:41;1999:18;;629:44:38::1;1688:335:68::0;629:44:38::1;-1:-1:-1::0;708:10:38::1;693:14;:26:::0;;;::::1;::::0;;;;;;;:38;;;;-1:-1:-1;;;;;;693:38:38::1;-1:-1:-1::0;;;;;693:38:38;;::::1;;::::0;;;::::1;::::0;-1:-1:-1;693:38:38;;::::1;::::0;433:305::o;14:173:68:-;82:20;;-1:-1:-1;;;;;131:31:68;;121:42;;111:70;;177:1;174;167:12;111:70;14:173;;;:::o;192:186::-;251:6;304:2;292:9;283:7;279:23;275:32;272:52;;;320:1;317;310:12;272:52;343:29;362:9;343:29;:::i;:::-;333:39;192:186;-1:-1:-1;;;192:186:68:o;662:614::-;753:6;806:2;794:9;785:7;781:23;777:32;774:52;;;822:1;819;812:12;774:52;855:2;849:9;897:2;889:6;885:15;966:6;954:10;951:22;930:18;918:10;915:34;912:62;909:185;;;1016:10;1011:3;1007:20;1004:1;997:31;1051:4;1048:1;1041:15;1079:4;1076:1;1069:15;909:185;1110:2;1103:22;1149:29;1168:9;1149:29;:::i;:::-;1141:6;1134:45;1240:2;1229:9;1225:18;1212:32;1207:2;1199:6;1195:15;1188:57;1264:6;1254:16;;;662:614;;;;:::o",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "gimmeLicense((address,uint256))": "ef295716",
+    "licenseHolders(address)": "b75c30db"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"components\":[{\"internalType\":\"address\",\"name\":\"addr\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"score\",\"type\":\"uint256\"}],\"internalType\":\"struct SAnswerNativeToken.LicenseCandidate\",\"name\":\"candidate\",\"type\":\"tuple\"}],\"name\":\"gimmeLicense\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"licenseHolders\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"addr\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"score\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"licenseHolders(address)\":{\"notice\":\"A-4. \\u30cd\\u30a4\\u30c6\\u30a3\\u30d6\\u30c8\\u30fc\\u30af\\u30f3\\u652f\\u6255\\u3044\\u3092\\u8a66\\u3059\"}},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/snw-stomizawa/Desktop/SaGa/directoryFIx/contracts/src/A4/AnswerNativeToken.sol\":\"AnswerNativeToken\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@openzeppelin/=../util/lib/openzeppelin-contracts/\",\":ds-test/=../util/lib/forge-std/lib/ds-test/src/\",\":forge-std/=../util/lib/forge-std/src/\",\":openzeppelin-contracts/=../util/lib/openzeppelin-contracts/\",\":scal-std/=../util/lib/scal-std/src/\",\":src/=../contracts/src/\",\":test/=../test/\"]},\"sources\":{\"../contracts/src/A4/interfaces/IAnswerNativeToken.sol\":{\"keccak256\":\"0xdc3f10f2bfbd882bfdb055556ee34c4cfc630dfd8f3326bd21383aa2402f830f\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b45bdd50d3788b7f1570fbc631fc7b0a15f124206d06da93c7fd100bcc8e392b\",\"dweb:/ipfs/QmTSSvqgXuyWPcHYgt8n7XNF8Mcs5caHjvJAwP5ioSyjEf\"]},\"../contracts/src/A4/interfaces/SAnswerNativeToken.sol\":{\"keccak256\":\"0xeb313fd13f203f7346fb67e5f3cad4cf1b5742b4ce06f564d6e96e05766df4a2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://727c7b08086e9371ff497619c8247e8059b1b400d50e36ffe605d4ca81744910\",\"dweb:/ipfs/QmZCNmXHabYFMWEYVZN68J2Ns756ErPPFdg1p57fuawTTt\"]},\"/Users/snw-stomizawa/Desktop/SaGa/directoryFIx/contracts/src/A4/AnswerNativeToken.sol\":{\"keccak256\":\"0xf092910ffd218e875ea9d43fbc7c00e9e104b7fd43a3b93f0ac7b3325fe59fbd\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b41e3dbcd10cb2c5f428218e06e5e7ba7584da92eacaaebae220b5b67f2d3ed8\",\"dweb:/ipfs/QmdoCk9LQYUJ5SKGFQPZmXqSeaRsZbtDEHuFVhd7u7DbZT\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.19+commit.7dd6d404"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "struct SAnswerNativeToken.LicenseCandidate",
+              "name": "candidate",
+              "type": "tuple",
+              "components": [
+                {
+                  "internalType": "address",
+                  "name": "addr",
+                  "type": "address"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "score",
+                  "type": "uint256"
+                }
+              ]
+            }
+          ],
+          "stateMutability": "payable",
+          "type": "function",
+          "name": "gimmeLicense"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "licenseHolders",
+          "outputs": [
+            {
+              "internalType": "address",
+              "name": "addr",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "score",
+              "type": "uint256"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {
+          "licenseHolders(address)": {
+            "notice": "A-4. ネイティブトークン支払いを試す"
+          }
+        },
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":@openzeppelin/=../util/lib/openzeppelin-contracts/",
+        ":ds-test/=../util/lib/forge-std/lib/ds-test/src/",
+        ":forge-std/=../util/lib/forge-std/src/",
+        ":openzeppelin-contracts/=../util/lib/openzeppelin-contracts/",
+        ":scal-std/=../util/lib/scal-std/src/",
+        ":src/=../contracts/src/",
+        ":test/=../test/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "/Users/snw-stomizawa/Desktop/SaGa/directoryFIx/contracts/src/A4/AnswerNativeToken.sol": "AnswerNativeToken"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "../contracts/src/A4/interfaces/IAnswerNativeToken.sol": {
+        "keccak256": "0xdc3f10f2bfbd882bfdb055556ee34c4cfc630dfd8f3326bd21383aa2402f830f",
+        "urls": [
+          "bzz-raw://b45bdd50d3788b7f1570fbc631fc7b0a15f124206d06da93c7fd100bcc8e392b",
+          "dweb:/ipfs/QmTSSvqgXuyWPcHYgt8n7XNF8Mcs5caHjvJAwP5ioSyjEf"
+        ],
+        "license": "MIT"
+      },
+      "../contracts/src/A4/interfaces/SAnswerNativeToken.sol": {
+        "keccak256": "0xeb313fd13f203f7346fb67e5f3cad4cf1b5742b4ce06f564d6e96e05766df4a2",
+        "urls": [
+          "bzz-raw://727c7b08086e9371ff497619c8247e8059b1b400d50e36ffe605d4ca81744910",
+          "dweb:/ipfs/QmZCNmXHabYFMWEYVZN68J2Ns756ErPPFdg1p57fuawTTt"
+        ],
+        "license": "MIT"
+      },
+      "/Users/snw-stomizawa/Desktop/SaGa/directoryFIx/contracts/src/A4/AnswerNativeToken.sol": {
+        "keccak256": "0xf092910ffd218e875ea9d43fbc7c00e9e104b7fd43a3b93f0ac7b3325fe59fbd",
+        "urls": [
+          "bzz-raw://b41e3dbcd10cb2c5f428218e06e5e7ba7584da92eacaaebae220b5b67f2d3ed8",
+          "dweb:/ipfs/QmdoCk9LQYUJ5SKGFQPZmXqSeaRsZbtDEHuFVhd7u7DbZT"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "/Users/snw-stomizawa/Desktop/SaGa/directoryFIx/contracts/src/A4/AnswerNativeToken.sol",
+    "id": 2368,
+    "exportedSymbols": {
+      "AnswerNativeToken": [
+        2367
+      ],
+      "IAnswerNativeToken": [
+        56
+      ],
+      "SAnswerNativeToken": [
+        64
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:875:38",
+    "nodes": [
+      {
+        "id": 2304,
+        "nodeType": "PragmaDirective",
+        "src": "32:24:38",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".17"
+        ]
+      },
+      {
+        "id": 2306,
+        "nodeType": "ImportDirective",
+        "src": "58:78:38",
+        "nodes": [],
+        "absolutePath": "../contracts/src/A4/interfaces/IAnswerNativeToken.sol",
+        "file": "src/A4/interfaces/IAnswerNativeToken.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 2368,
+        "sourceUnit": 57,
+        "symbolAliases": [
+          {
+            "foreign": {
+              "id": 2305,
+              "name": "IAnswerNativeToken",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 56,
+              "src": "67:18:38",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          }
+        ],
+        "unitAlias": ""
+      },
+      {
+        "id": 2308,
+        "nodeType": "ImportDirective",
+        "src": "137:78:38",
+        "nodes": [],
+        "absolutePath": "../contracts/src/A4/interfaces/SAnswerNativeToken.sol",
+        "file": "src/A4/interfaces/SAnswerNativeToken.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 2368,
+        "sourceUnit": 65,
+        "symbolAliases": [
+          {
+            "foreign": {
+              "id": 2307,
+              "name": "SAnswerNativeToken",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 64,
+              "src": "146:18:38",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          }
+        ],
+        "unitAlias": ""
+      },
+      {
+        "id": 2367,
+        "nodeType": "ContractDefinition",
+        "src": "217:689:38",
+        "nodes": [
+          {
+            "id": 2318,
+            "nodeType": "VariableDeclaration",
+            "src": "368:58:38",
+            "nodes": [],
+            "baseFunctions": [
+              55
+            ],
+            "constant": false,
+            "documentation": {
+              "id": 2313,
+              "nodeType": "StructuredDocumentation",
+              "src": "293:70:38",
+              "text": "A-4. ネイティブトークン支払いを試す"
+            },
+            "functionSelector": "b75c30db",
+            "mutability": "mutable",
+            "name": "licenseHolders",
+            "nameLocation": "412:14:38",
+            "scope": 2367,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_LicenseCandidate_$63_storage_$",
+              "typeString": "mapping(address => struct SAnswerNativeToken.LicenseCandidate)"
+            },
+            "typeName": {
+              "id": 2317,
+              "keyName": "",
+              "keyNameLocation": "-1:-1:-1",
+              "keyType": {
+                "id": 2314,
+                "name": "address",
+                "nodeType": "ElementaryTypeName",
+                "src": "376:7:38",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "368:36:38",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_LicenseCandidate_$63_storage_$",
+                "typeString": "mapping(address => struct SAnswerNativeToken.LicenseCandidate)"
+              },
+              "valueName": "",
+              "valueNameLocation": "-1:-1:-1",
+              "valueType": {
+                "id": 2316,
+                "nodeType": "UserDefinedTypeName",
+                "pathNode": {
+                  "id": 2315,
+                  "name": "LicenseCandidate",
+                  "nameLocations": [
+                    "387:16:38"
+                  ],
+                  "nodeType": "IdentifierPath",
+                  "referencedDeclaration": 63,
+                  "src": "387:16:38"
+                },
+                "referencedDeclaration": 63,
+                "src": "387:16:38",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_struct$_LicenseCandidate_$63_storage_ptr",
+                  "typeString": "struct SAnswerNativeToken.LicenseCandidate"
+                }
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 2350,
+            "nodeType": "FunctionDefinition",
+            "src": "433:305:38",
+            "nodes": [],
+            "body": {
+              "id": 2349,
+              "nodeType": "Block",
+              "src": "548:190:38",
+              "nodes": [],
+              "statements": [
+                {
+                  "condition": {
+                    "commonType": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    },
+                    "id": 2331,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "expression": {
+                        "id": 2328,
+                        "name": "msg",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": -15,
+                        "src": "586:3:38",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_magic_message",
+                          "typeString": "msg"
+                        }
+                      },
+                      "id": 2329,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "590:5:38",
+                      "memberName": "value",
+                      "nodeType": "MemberAccess",
+                      "src": "586:9:38",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "<",
+                    "rightExpression": {
+                      "hexValue": "31",
+                      "id": 2330,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "598:7:38",
+                      "subdenomination": "ether",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_rational_1000000000000000000_by_1",
+                        "typeString": "int_const 1000000000000000000"
+                      },
+                      "value": "1"
+                    },
+                    "src": "586:19:38",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 2341,
+                  "nodeType": "IfStatement",
+                  "src": "583:101:38",
+                  "trueBody": {
+                    "id": 2340,
+                    "nodeType": "Block",
+                    "src": "615:69:38",
+                    "statements": [
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "commonType": {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                              },
+                              "id": 2336,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "leftExpression": {
+                                "expression": {
+                                  "id": 2333,
+                                  "name": "candidate",
+                                  "nodeType": "Identifier",
+                                  "overloadedDeclarations": [],
+                                  "referencedDeclaration": 2321,
+                                  "src": "637:9:38",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_struct$_LicenseCandidate_$63_memory_ptr",
+                                    "typeString": "struct SAnswerNativeToken.LicenseCandidate memory"
+                                  }
+                                },
+                                "id": 2334,
+                                "isConstant": false,
+                                "isLValue": true,
+                                "isPure": false,
+                                "lValueRequested": false,
+                                "memberLocation": "647:5:38",
+                                "memberName": "score",
+                                "nodeType": "MemberAccess",
+                                "referencedDeclaration": 62,
+                                "src": "637:15:38",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_uint256",
+                                  "typeString": "uint256"
+                                }
+                              },
+                              "nodeType": "BinaryOperation",
+                              "operator": ">",
+                              "rightExpression": {
+                                "hexValue": "3830",
+                                "id": 2335,
+                                "isConstant": false,
+                                "isLValue": false,
+                                "isPure": true,
+                                "kind": "number",
+                                "lValueRequested": false,
+                                "nodeType": "Literal",
+                                "src": "655:2:38",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_rational_80_by_1",
+                                  "typeString": "int_const 80"
+                                },
+                                "value": "80"
+                              },
+                              "src": "637:20:38",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_bool",
+                                "typeString": "bool"
+                              }
+                            },
+                            {
+                              "hexValue": "596f75206661696c65642e",
+                              "id": 2337,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": true,
+                              "kind": "string",
+                              "lValueRequested": false,
+                              "nodeType": "Literal",
+                              "src": "659:13:38",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_stringliteral_934e30aef61b9330bcc740012093bdee28a4472cf915607a97f6ce6364b8ab0e",
+                                "typeString": "literal_string \"You failed.\""
+                              },
+                              "value": "You failed."
+                            }
+                          ],
+                          "expression": {
+                            "argumentTypes": [
+                              {
+                                "typeIdentifier": "t_bool",
+                                "typeString": "bool"
+                              },
+                              {
+                                "typeIdentifier": "t_stringliteral_934e30aef61b9330bcc740012093bdee28a4472cf915607a97f6ce6364b8ab0e",
+                                "typeString": "literal_string \"You failed.\""
+                              }
+                            ],
+                            "id": 2332,
+                            "name": "require",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [
+                              -18,
+                              -18
+                            ],
+                            "referencedDeclaration": -18,
+                            "src": "629:7:38",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
+                              "typeString": "function (bool,string memory) pure"
+                            }
+                          },
+                          "id": 2338,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "kind": "functionCall",
+                          "lValueRequested": false,
+                          "nameLocations": [],
+                          "names": [],
+                          "nodeType": "FunctionCall",
+                          "src": "629:44:38",
+                          "tryCall": false,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_tuple$__$",
+                            "typeString": "tuple()"
+                          }
+                        },
+                        "id": 2339,
+                        "nodeType": "ExpressionStatement",
+                        "src": "629:44:38"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "expression": {
+                    "id": 2347,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "baseExpression": {
+                        "id": 2342,
+                        "name": "licenseHolders",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 2318,
+                        "src": "693:14:38",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_LicenseCandidate_$63_storage_$",
+                          "typeString": "mapping(address => struct SAnswerNativeToken.LicenseCandidate storage ref)"
+                        }
+                      },
+                      "id": 2345,
+                      "indexExpression": {
+                        "expression": {
+                          "id": 2343,
+                          "name": "msg",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": -15,
+                          "src": "708:3:38",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_magic_message",
+                            "typeString": "msg"
+                          }
+                        },
+                        "id": 2344,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberLocation": "712:6:38",
+                        "memberName": "sender",
+                        "nodeType": "MemberAccess",
+                        "src": "708:10:38",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "nodeType": "IndexAccess",
+                      "src": "693:26:38",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_LicenseCandidate_$63_storage",
+                        "typeString": "struct SAnswerNativeToken.LicenseCandidate storage ref"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "id": 2346,
+                      "name": "candidate",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 2321,
+                      "src": "722:9:38",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_LicenseCandidate_$63_memory_ptr",
+                        "typeString": "struct SAnswerNativeToken.LicenseCandidate memory"
+                      }
+                    },
+                    "src": "693:38:38",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_LicenseCandidate_$63_storage",
+                      "typeString": "struct SAnswerNativeToken.LicenseCandidate storage ref"
+                    }
+                  },
+                  "id": 2348,
+                  "nodeType": "ExpressionStatement",
+                  "src": "693:38:38"
+                }
+              ]
+            },
+            "baseFunctions": [
+              46
+            ],
+            "functionSelector": "ef295716",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [
+              {
+                "arguments": [
+                  {
+                    "id": 2325,
+                    "name": "candidate",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 2321,
+                    "src": "533:9:38",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_LicenseCandidate_$63_memory_ptr",
+                      "typeString": "struct SAnswerNativeToken.LicenseCandidate memory"
+                    }
+                  }
+                ],
+                "id": 2326,
+                "kind": "modifierInvocation",
+                "modifierName": {
+                  "id": 2324,
+                  "name": "onlyYou2",
+                  "nameLocations": [
+                    "524:8:38"
+                  ],
+                  "nodeType": "IdentifierPath",
+                  "referencedDeclaration": 2366,
+                  "src": "524:8:38"
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "524:19:38"
+              }
+            ],
+            "name": "gimmeLicense",
+            "nameLocation": "442:12:38",
+            "overrides": {
+              "id": 2323,
+              "nodeType": "OverrideSpecifier",
+              "overrides": [],
+              "src": "515:8:38"
+            },
+            "parameters": {
+              "id": 2322,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2321,
+                  "mutability": "mutable",
+                  "name": "candidate",
+                  "nameLocation": "479:9:38",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2350,
+                  "src": "455:33:38",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_LicenseCandidate_$63_memory_ptr",
+                    "typeString": "struct SAnswerNativeToken.LicenseCandidate"
+                  },
+                  "typeName": {
+                    "id": 2320,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 2319,
+                      "name": "LicenseCandidate",
+                      "nameLocations": [
+                        "455:16:38"
+                      ],
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 63,
+                      "src": "455:16:38"
+                    },
+                    "referencedDeclaration": 63,
+                    "src": "455:16:38",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_LicenseCandidate_$63_storage_ptr",
+                      "typeString": "struct SAnswerNativeToken.LicenseCandidate"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "454:35:38"
+            },
+            "returnParameters": {
+              "id": 2327,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "548:0:38"
+            },
+            "scope": 2367,
+            "stateMutability": "payable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 2366,
+            "nodeType": "ModifierDefinition",
+            "src": "744:160:38",
+            "nodes": [],
+            "body": {
+              "id": 2365,
+              "nodeType": "Block",
+              "src": "797:107:38",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "commonType": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        },
+                        "id": 2360,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "expression": {
+                            "id": 2356,
+                            "name": "msg",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": -15,
+                            "src": "815:3:38",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_magic_message",
+                              "typeString": "msg"
+                            }
+                          },
+                          "id": 2357,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberLocation": "819:6:38",
+                          "memberName": "sender",
+                          "nodeType": "MemberAccess",
+                          "src": "815:10:38",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": "==",
+                        "rightExpression": {
+                          "expression": {
+                            "id": 2358,
+                            "name": "candidate",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 2353,
+                            "src": "829:9:38",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_struct$_LicenseCandidate_$63_memory_ptr",
+                              "typeString": "struct SAnswerNativeToken.LicenseCandidate memory"
+                            }
+                          },
+                          "id": 2359,
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberLocation": "839:4:38",
+                          "memberName": "addr",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": 60,
+                          "src": "829:14:38",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        },
+                        "src": "815:28:38",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "hexValue": "596f7520617265206e6f7420746865206f776e6572206f662074686973206163636f756e742e",
+                        "id": 2361,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "845:40:38",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_add0e6b8020a20b310a2fb75fb17c5704f0a4553df1356397c9de78c8e19f138",
+                          "typeString": "literal_string \"You are not the owner of this account.\""
+                        },
+                        "value": "You are not the owner of this account."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        },
+                        {
+                          "typeIdentifier": "t_stringliteral_add0e6b8020a20b310a2fb75fb17c5704f0a4553df1356397c9de78c8e19f138",
+                          "typeString": "literal_string \"You are not the owner of this account.\""
+                        }
+                      ],
+                      "id": 2355,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        -18,
+                        -18
+                      ],
+                      "referencedDeclaration": -18,
+                      "src": "807:7:38",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (bool,string memory) pure"
+                      }
+                    },
+                    "id": 2362,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "807:79:38",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 2363,
+                  "nodeType": "ExpressionStatement",
+                  "src": "807:79:38"
+                },
+                {
+                  "id": 2364,
+                  "nodeType": "PlaceholderStatement",
+                  "src": "896:1:38"
+                }
+              ]
+            },
+            "name": "onlyYou2",
+            "nameLocation": "753:8:38",
+            "parameters": {
+              "id": 2354,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2353,
+                  "mutability": "mutable",
+                  "name": "candidate",
+                  "nameLocation": "786:9:38",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2366,
+                  "src": "762:33:38",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_LicenseCandidate_$63_memory_ptr",
+                    "typeString": "struct SAnswerNativeToken.LicenseCandidate"
+                  },
+                  "typeName": {
+                    "id": 2352,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 2351,
+                      "name": "LicenseCandidate",
+                      "nameLocations": [
+                        "762:16:38"
+                      ],
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 63,
+                      "src": "762:16:38"
+                    },
+                    "referencedDeclaration": 63,
+                    "src": "762:16:38",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_LicenseCandidate_$63_storage_ptr",
+                      "typeString": "struct SAnswerNativeToken.LicenseCandidate"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "761:35:38"
+            },
+            "virtual": false,
+            "visibility": "internal"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 2309,
+              "name": "IAnswerNativeToken",
+              "nameLocations": [
+                "247:18:38"
+              ],
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 56,
+              "src": "247:18:38"
+            },
+            "id": 2310,
+            "nodeType": "InheritanceSpecifier",
+            "src": "247:18:38"
+          },
+          {
+            "baseName": {
+              "id": 2311,
+              "name": "SAnswerNativeToken",
+              "nameLocations": [
+                "267:18:38"
+              ],
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 64,
+              "src": "267:18:38"
+            },
+            "id": 2312,
+            "nodeType": "InheritanceSpecifier",
+            "src": "267:18:38"
+          }
+        ],
+        "canonicalName": "AnswerNativeToken",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          2367,
+          64,
+          56
+        ],
+        "name": "AnswerNativeToken",
+        "nameLocation": "226:17:38",
+        "scope": 2368,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 38
+}

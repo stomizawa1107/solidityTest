@@ -1,0 +1,235 @@
+{
+  "abi": [],
+  "bytecode": {
+    "object": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212206b81e5dc4acd1c1f92cf8c3d6afb097e2e6aa4cf8ad92a5f9e3a3ec54e029d4864736f6c63430008130033",
+    "sourceMap": "58:167:0:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052600080fdfea26469706673582212206b81e5dc4acd1c1f92cf8c3d6afb097e2e6aa4cf8ad92a5f9e3a3ec54e029d4864736f6c63430008130033",
+    "sourceMap": "58:167:0:-:0;;;;;",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {},
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"../contracts/src/A2/interfaces/SAnswerStructAndStorage.sol\":\"SAnswerStructAndStorage\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@openzeppelin/=lib/openzeppelin-contracts/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\",\":scal-std/=lib/scal-std/src/\",\":src/=../contracts/src/\",\":test/=../test/\"]},\"sources\":{\"../contracts/src/A2/interfaces/SAnswerStructAndStorage.sol\":{\"keccak256\":\"0x93e6f34032dc23292eb33a24aa758b567b9ec5494a7466d20ff16967f4e30630\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://399fd72ed90096d27bc11811d7dc981bf2b806cadf50bc48ab37568969f06c60\",\"dweb:/ipfs/QmTsds7sJ85F7wN4ZXmrJd8Pw6hikujmBZcod9THHBqmQy\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.19+commit.7dd6d404"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":@openzeppelin/=lib/openzeppelin-contracts/",
+        ":ds-test/=lib/forge-std/lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/",
+        ":openzeppelin-contracts/=lib/openzeppelin-contracts/",
+        ":scal-std/=lib/scal-std/src/",
+        ":src/=../contracts/src/",
+        ":test/=../test/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "../contracts/src/A2/interfaces/SAnswerStructAndStorage.sol": "SAnswerStructAndStorage"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "../contracts/src/A2/interfaces/SAnswerStructAndStorage.sol": {
+        "keccak256": "0x93e6f34032dc23292eb33a24aa758b567b9ec5494a7466d20ff16967f4e30630",
+        "urls": [
+          "bzz-raw://399fd72ed90096d27bc11811d7dc981bf2b806cadf50bc48ab37568969f06c60",
+          "dweb:/ipfs/QmTsds7sJ85F7wN4ZXmrJd8Pw6hikujmBZcod9THHBqmQy"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "../contracts/src/A2/interfaces/SAnswerStructAndStorage.sol",
+    "id": 12,
+    "exportedSymbols": {
+      "SAnswerStructAndStorage": [
+        11
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:193:0",
+    "nodes": [
+      {
+        "id": 1,
+        "nodeType": "PragmaDirective",
+        "src": "32:24:0",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".10"
+        ]
+      },
+      {
+        "id": 11,
+        "nodeType": "ContractDefinition",
+        "src": "58:167:0",
+        "nodes": [
+          {
+            "id": 10,
+            "nodeType": "StructDefinition",
+            "src": "97:126:0",
+            "nodes": [],
+            "canonicalName": "SAnswerStructAndStorage.YourScore",
+            "members": [
+              {
+                "constant": false,
+                "id": 3,
+                "mutability": "mutable",
+                "name": "name",
+                "nameLocation": "131:4:0",
+                "nodeType": "VariableDeclaration",
+                "scope": 10,
+                "src": "124:11:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 2,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "124:6:0",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 5,
+                "mutability": "mutable",
+                "name": "description",
+                "nameLocation": "152:11:0",
+                "nodeType": "VariableDeclaration",
+                "scope": 10,
+                "src": "145:18:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 4,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "145:6:0",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 7,
+                "mutability": "mutable",
+                "name": "score",
+                "nameLocation": "181:5:0",
+                "nodeType": "VariableDeclaration",
+                "scope": 10,
+                "src": "173:13:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 6,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "173:7:0",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 9,
+                "mutability": "mutable",
+                "name": "ssss",
+                "nameLocation": "205:4:0",
+                "nodeType": "VariableDeclaration",
+                "scope": 10,
+                "src": "197:12:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 8,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "197:7:0",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              }
+            ],
+            "name": "YourScore",
+            "nameLocation": "104:9:0",
+            "scope": 11,
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "SAnswerStructAndStorage",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          11
+        ],
+        "name": "SAnswerStructAndStorage",
+        "nameLocation": "67:23:0",
+        "scope": 12,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 0
+}

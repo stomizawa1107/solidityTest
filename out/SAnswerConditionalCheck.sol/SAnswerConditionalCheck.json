@@ -1,0 +1,209 @@
+{
+  "abi": [],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {},
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/src/A3/interfaces/SAnswerConditionalCheck.sol\":\"SAnswerConditionalCheck\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@openzeppelin/=util/lib/openzeppelin-contracts/\",\":ds-test/=util/lib/forge-std/lib/ds-test/src/\",\":forge-std/=util/lib/forge-std/src/\",\":openzeppelin-contracts/=util/lib/openzeppelin-contracts/\",\":scal-std/=util/lib/scal-std/src/\",\":src/=contracts/src/\",\":test/=test/\"]},\"sources\":{\"contracts/src/A3/interfaces/SAnswerConditionalCheck.sol\":{\"keccak256\":\"0xc5a0f51cf3300637c5511d50e4cac3414bfe00d6b5b7c3d2ff2d537e4f95413e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b10607d05c5b5555be121b8b5a7df2a9d96011516a510e2dbb04fd7c9e74a76b\",\"dweb:/ipfs/QmVz1o7uf9TbN7Hw1BnFPCeKJZwBCBGoqQkeStoQbXssYY\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.19+commit.7dd6d404"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":@openzeppelin/=util/lib/openzeppelin-contracts/",
+        ":ds-test/=util/lib/forge-std/lib/ds-test/src/",
+        ":forge-std/=util/lib/forge-std/src/",
+        ":openzeppelin-contracts/=util/lib/openzeppelin-contracts/",
+        ":scal-std/=util/lib/scal-std/src/",
+        ":src/=contracts/src/",
+        ":test/=test/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "contracts/src/A3/interfaces/SAnswerConditionalCheck.sol": "SAnswerConditionalCheck"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "contracts/src/A3/interfaces/SAnswerConditionalCheck.sol": {
+        "keccak256": "0xc5a0f51cf3300637c5511d50e4cac3414bfe00d6b5b7c3d2ff2d537e4f95413e",
+        "urls": [
+          "bzz-raw://b10607d05c5b5555be121b8b5a7df2a9d96011516a510e2dbb04fd7c9e74a76b",
+          "dweb:/ipfs/QmVz1o7uf9TbN7Hw1BnFPCeKJZwBCBGoqQkeStoQbXssYY"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "contracts/src/A3/interfaces/SAnswerConditionalCheck.sol",
+    "id": 276,
+    "exportedSymbols": {
+      "SAnswerConditionalCheck": [
+        275
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:162:5",
+    "nodes": [
+      {
+        "id": 267,
+        "nodeType": "PragmaDirective",
+        "src": "32:24:5",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".17"
+        ]
+      },
+      {
+        "id": 275,
+        "nodeType": "ContractDefinition",
+        "src": "58:135:5",
+        "nodes": [
+          {
+            "id": 274,
+            "nodeType": "StructDefinition",
+            "src": "98:93:5",
+            "nodes": [],
+            "canonicalName": "SAnswerConditionalCheck.Person",
+            "members": [
+              {
+                "constant": false,
+                "id": 269,
+                "mutability": "mutable",
+                "name": "addr",
+                "nameLocation": "130:4:5",
+                "nodeType": "VariableDeclaration",
+                "scope": 274,
+                "src": "122:12:5",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                },
+                "typeName": {
+                  "id": 268,
+                  "name": "address",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "122:7:5",
+                  "stateMutability": "nonpayable",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 271,
+                "mutability": "mutable",
+                "name": "collateral",
+                "nameLocation": "152:10:5",
+                "nodeType": "VariableDeclaration",
+                "scope": 274,
+                "src": "144:18:5",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 270,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "144:7:5",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 273,
+                "mutability": "mutable",
+                "name": "debt",
+                "nameLocation": "180:4:5",
+                "nodeType": "VariableDeclaration",
+                "scope": 274,
+                "src": "172:12:5",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 272,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "172:7:5",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              }
+            ],
+            "name": "Person",
+            "nameLocation": "105:6:5",
+            "scope": 275,
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "SAnswerConditionalCheck",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          275
+        ],
+        "name": "SAnswerConditionalCheck",
+        "nameLocation": "68:23:5",
+        "scope": 276,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 5
+}

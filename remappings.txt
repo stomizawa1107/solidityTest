@@ -1,0 +1,6 @@
+ds-test/=util/lib/forge-std/lib/ds-test/src/
+forge-std/=util/lib/forge-std/src/
+scal-std/=util/lib/scal-std/src/
+@openzeppelin/=util/lib/openzeppelin-contracts/
+test/=test/
+src/=contracts/src/

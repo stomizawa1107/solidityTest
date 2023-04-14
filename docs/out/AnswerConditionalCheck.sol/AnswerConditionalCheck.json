@@ -1,0 +1,1240 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "address",
+              "name": "addr",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "collateral",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "debt",
+              "type": "uint256"
+            }
+          ],
+          "internalType": "struct SAnswerConditionalCheck.Person",
+          "name": "person",
+          "type": "tuple"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "borrowMore",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x608060405234801561001057600080fd5b506102f1806100206000396000f3fe608060405234801561001057600080fd5b506004361061002b5760003560e01c806332c3095f14610030575b600080fd5b61004361003e3660046101dd565b610057565b604051901515815260200160405180910390f35b600082336001600160a01b031681600001516001600160a01b03160361017f57600084604001516000036100ed575060405162461bcd60e51b815260206004820152602e60248201527f436f6c6c61746572616c697a6174696f6e20726174696f206d7573742062652060448201526d6d6f7265207468616e203131302560901b60648201526001906084015b60405180910390fd5b606e8560400151866020015186610104919061026e565b61010e9190610299565b111561011c57506001610178565b60405162461bcd60e51b815260206004820152602b60248201527f436f6c6c61746572616c697a6174696f6e20726174696f20697320616c72656160448201526a0c8f240e8dede40d0d2ced60ab1b60648201526084016100e4565b91506101d6565b60405162461bcd60e51b815260206004820152602660248201527f596f7520617265206e6f7420746865206f776e6572206f66207468697320616360448201526531b7bab73a1760d11b60648201526084016100e4565b5092915050565b60008082840360808112156101f157600080fd5b60608112156101ff57600080fd5b506040516060810181811067ffffffffffffffff8211171561023157634e487b7160e01b600052604160045260246000fd5b60405283356001600160a01b038116811461024b57600080fd5b815260208481013590820152604080850135908201529460609093013593505050565b808202811582820484141761029357634e487b7160e01b600052601160045260246000fd5b92915050565b6000826102b657634e487b7160e01b600052601260045260246000fd5b50049056fea264697066735822122083223f4fb3653fe21b43ca1e4afc8d1523ee07798db11e80229afe59afef1e2f64736f6c63430008130033",
+    "sourceMap": "237:1075:35:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x608060405234801561001057600080fd5b506004361061002b5760003560e01c806332c3095f14610030575b600080fd5b61004361003e3660046101dd565b610057565b604051901515815260200160405180910390f35b600082336001600160a01b031681600001516001600160a01b03160361017f57600084604001516000036100ed575060405162461bcd60e51b815260206004820152602e60248201527f436f6c6c61746572616c697a6174696f6e20726174696f206d7573742062652060448201526d6d6f7265207468616e203131302560901b60648201526001906084015b60405180910390fd5b606e8560400151866020015186610104919061026e565b61010e9190610299565b111561011c57506001610178565b60405162461bcd60e51b815260206004820152602b60248201527f436f6c6c61746572616c697a6174696f6e20726174696f20697320616c72656160448201526a0c8f240e8dede40d0d2ced60ab1b60648201526084016100e4565b91506101d6565b60405162461bcd60e51b815260206004820152602660248201527f596f7520617265206e6f7420746865206f776e6572206f66207468697320616360448201526531b7bab73a1760d11b60648201526084016100e4565b5092915050565b60008082840360808112156101f157600080fd5b60608112156101ff57600080fd5b506040516060810181811067ffffffffffffffff8211171561023157634e487b7160e01b600052604160045260246000fd5b60405283356001600160a01b038116811461024b57600080fd5b815260208481013590820152604080850135908201529460609093013593505050565b808202811582820484141761029357634e487b7160e01b600052601160045260246000fd5b92915050565b6000826102b657634e487b7160e01b600052601260045260246000fd5b50049056fea264697066735822122083223f4fb3653fe21b43ca1e4afc8d1523ee07798db11e80229afe59afef1e2f64736f6c63430008130033",
+    "sourceMap": "237:1075:35:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;456:599;;;;;;:::i;:::-;;:::i;:::-;;;1090:14:68;;1083:22;1065:41;;1053:2;1038:18;456:599:35;;;;;;;;565:4;548:6;1154:10;-1:-1:-1;;;;;1139:25:35;:6;:11;;;-1:-1:-1;;;;;1139:25:35;;1136:159;;654:10:::1;684:6;:11;;;699:1;684:16:::0;681:347:::1;;-1:-1:-1::0;749:56:35::1;::::0;-1:-1:-1;;;749:56:35;;1319:2:68;749:56:35::1;::::0;::::1;1301:21:68::0;1358:2;1338:18;;;1331:30;1397:34;1377:18;;;1370:62;-1:-1:-1;;;1448:18:68;;;1441:44;731:4:35::1;::::0;1502:19:68;;749:56:35::1;;;;;;;;681:347;876:3;861:6;:11;;;841:6;:17;;;832:6;:26;;;;:::i;:::-;:40;;;;:::i;:::-;831:48;828:200;;;-1:-1:-1::0;914:4:35::1;828:200;;;964:53;::::0;-1:-1:-1;;;964:53:35;;2226:2:68;964:53:35::1;::::0;::::1;2208:21:68::0;2265:2;2245:18;;;2238:30;2304:34;2284:18;;;2277:62;-1:-1:-1;;;2355:18:68;;;2348:41;2406:19;;964:53:35::1;2024:407:68::0;828:200:35::1;1043:5:::0;-1:-1:-1;1136:159:35;;;1236:48;;-1:-1:-1;;;1236:48:35;;2638:2:68;1236:48:35;;;2620:21:68;2677:2;2657:18;;;2650:30;2716:34;2696:18;;;2689:62;-1:-1:-1;;;2767:18:68;;;2760:36;2813:19;;1236:48:35;2436:402:68;1136:159:35;456:599;;;;;:::o;14:906:68:-;104:6;112;156:9;147:7;143:23;186:3;182:2;178:12;175:32;;;203:1;200;193:12;175:32;227:4;223:2;219:13;216:33;;;245:1;242;235:12;216:33;;278:2;272:9;320:4;312:6;308:17;391:6;379:10;376:22;355:18;343:10;340:34;337:62;334:185;;;441:10;436:3;432:20;429:1;422:31;476:4;473:1;466:15;504:4;501:1;494:15;334:185;535:2;528:22;572:23;;-1:-1:-1;;;;;624:31:68;;614:42;;604:70;;670:1;667;660:12;604:70;683:21;;765:2;750:18;;;737:32;720:15;;;713:57;831:2;816:18;;;803:32;786:15;;;779:57;690:6;908:4;893:20;;;880:34;;-1:-1:-1;;;14:906:68:o;1532:265::-;1605:9;;;1636;;1653:15;;;1647:22;;1633:37;1623:168;;1713:10;1708:3;1704:20;1701:1;1694:31;1748:4;1745:1;1738:15;1776:4;1773:1;1766:15;1623:168;1532:265;;;;:::o;1802:217::-;1842:1;1868;1858:132;;1912:10;1907:3;1903:20;1900:1;1893:31;1947:4;1944:1;1937:15;1975:4;1972:1;1965:15;1858:132;-1:-1:-1;2004:9:68;;1802:217::o",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "borrowMore((address,uint256,uint256),uint256)": "32c3095f"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"components\":[{\"internalType\":\"address\",\"name\":\"addr\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"collateral\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"debt\",\"type\":\"uint256\"}],\"internalType\":\"struct SAnswerConditionalCheck.Person\",\"name\":\"person\",\"type\":\"tuple\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"borrowMore\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"borrowMore((address,uint256,uint256),uint256)\":{\"notice\":\"A-3. \\u5236\\u5fa1\\u69cb\\u6587(if, for, require, revert), modifier, \\u30a2\\u30af\\u30bb\\u30b9\\u5236\\u5fa1, \\u30aa\\u30fc\\u30ca\\u30fc\\u6a29\\u9650\\u3092\\u8a66\\u3059\"}},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/snw-stomizawa/Desktop/SaGa/directoryFIx/contracts/src/A3/AnswerConditionalCheck.sol\":\"AnswerConditionalCheck\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@openzeppelin/=../util/lib/openzeppelin-contracts/\",\":ds-test/=../util/lib/forge-std/lib/ds-test/src/\",\":forge-std/=../util/lib/forge-std/src/\",\":openzeppelin-contracts/=../util/lib/openzeppelin-contracts/\",\":scal-std/=../util/lib/scal-std/src/\",\":src/=../contracts/src/\",\":test/=../test/\"]},\"sources\":{\"../contracts/src/A3/interfaces/IAnswerConditionalCheck.sol\":{\"keccak256\":\"0xd5b02bde38cda3f7e16f9cf2990a8ce874fedb2fba5c805a067025114f674a6c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://32a5d4e047276d8aa63f3f3cbedeb99df460b8c79f1b436ebde550247c251d47\",\"dweb:/ipfs/QmPbY3SutfKE5Z1B64ajuj2ws7qk29uw6pvXhuMy8wLoRK\"]},\"../contracts/src/A3/interfaces/SAnswerConditionalCheck.sol\":{\"keccak256\":\"0xc5a0f51cf3300637c5511d50e4cac3414bfe00d6b5b7c3d2ff2d537e4f95413e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b10607d05c5b5555be121b8b5a7df2a9d96011516a510e2dbb04fd7c9e74a76b\",\"dweb:/ipfs/QmVz1o7uf9TbN7Hw1BnFPCeKJZwBCBGoqQkeStoQbXssYY\"]},\"/Users/snw-stomizawa/Desktop/SaGa/directoryFIx/contracts/src/A3/AnswerConditionalCheck.sol\":{\"keccak256\":\"0xee73934cdfca3ad3eb6112c47ea573af9d0ecb4a05b92576df9b4bcca1177dac\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://f4c7fc3427375414bcad57444117c5c3cd48b5f19fe882c3f5d28c37f57aaaca\",\"dweb:/ipfs/QmW4FyDhuiHGBZvZVozT6dkFwkE8pNxEa8LFshY3A7KX3c\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.19+commit.7dd6d404"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "struct SAnswerConditionalCheck.Person",
+              "name": "person",
+              "type": "tuple",
+              "components": [
+                {
+                  "internalType": "address",
+                  "name": "addr",
+                  "type": "address"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "collateral",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "debt",
+                  "type": "uint256"
+                }
+              ]
+            },
+            {
+              "internalType": "uint256",
+              "name": "amount",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "borrowMore",
+          "outputs": [
+            {
+              "internalType": "bool",
+              "name": "",
+              "type": "bool"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {
+          "borrowMore((address,uint256,uint256),uint256)": {
+            "notice": "A-3. 制御構文(if, for, require, revert), modifier, アクセス制御, オーナー権限を試す"
+          }
+        },
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":@openzeppelin/=../util/lib/openzeppelin-contracts/",
+        ":ds-test/=../util/lib/forge-std/lib/ds-test/src/",
+        ":forge-std/=../util/lib/forge-std/src/",
+        ":openzeppelin-contracts/=../util/lib/openzeppelin-contracts/",
+        ":scal-std/=../util/lib/scal-std/src/",
+        ":src/=../contracts/src/",
+        ":test/=../test/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "/Users/snw-stomizawa/Desktop/SaGa/directoryFIx/contracts/src/A3/AnswerConditionalCheck.sol": "AnswerConditionalCheck"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "../contracts/src/A3/interfaces/IAnswerConditionalCheck.sol": {
+        "keccak256": "0xd5b02bde38cda3f7e16f9cf2990a8ce874fedb2fba5c805a067025114f674a6c",
+        "urls": [
+          "bzz-raw://32a5d4e047276d8aa63f3f3cbedeb99df460b8c79f1b436ebde550247c251d47",
+          "dweb:/ipfs/QmPbY3SutfKE5Z1B64ajuj2ws7qk29uw6pvXhuMy8wLoRK"
+        ],
+        "license": "MIT"
+      },
+      "../contracts/src/A3/interfaces/SAnswerConditionalCheck.sol": {
+        "keccak256": "0xc5a0f51cf3300637c5511d50e4cac3414bfe00d6b5b7c3d2ff2d537e4f95413e",
+        "urls": [
+          "bzz-raw://b10607d05c5b5555be121b8b5a7df2a9d96011516a510e2dbb04fd7c9e74a76b",
+          "dweb:/ipfs/QmVz1o7uf9TbN7Hw1BnFPCeKJZwBCBGoqQkeStoQbXssYY"
+        ],
+        "license": "MIT"
+      },
+      "/Users/snw-stomizawa/Desktop/SaGa/directoryFIx/contracts/src/A3/AnswerConditionalCheck.sol": {
+        "keccak256": "0xee73934cdfca3ad3eb6112c47ea573af9d0ecb4a05b92576df9b4bcca1177dac",
+        "urls": [
+          "bzz-raw://f4c7fc3427375414bcad57444117c5c3cd48b5f19fe882c3f5d28c37f57aaaca",
+          "dweb:/ipfs/QmW4FyDhuiHGBZvZVozT6dkFwkE8pNxEa8LFshY3A7KX3c"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "/Users/snw-stomizawa/Desktop/SaGa/directoryFIx/contracts/src/A3/AnswerConditionalCheck.sol",
+    "id": 2278,
+    "exportedSymbols": {
+      "AnswerConditionalCheck": [
+        2277
+      ],
+      "IAnswerConditionalCheck": [
+        26
+      ],
+      "SAnswerConditionalCheck": [
+        36
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:1281:35",
+    "nodes": [
+      {
+        "id": 2192,
+        "nodeType": "PragmaDirective",
+        "src": "32:24:35",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".17"
+        ]
+      },
+      {
+        "id": 2194,
+        "nodeType": "ImportDirective",
+        "src": "58:88:35",
+        "nodes": [],
+        "absolutePath": "../contracts/src/A3/interfaces/IAnswerConditionalCheck.sol",
+        "file": "src/A3/interfaces/IAnswerConditionalCheck.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 2278,
+        "sourceUnit": 27,
+        "symbolAliases": [
+          {
+            "foreign": {
+              "id": 2193,
+              "name": "IAnswerConditionalCheck",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 26,
+              "src": "67:23:35",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          }
+        ],
+        "unitAlias": ""
+      },
+      {
+        "id": 2196,
+        "nodeType": "ImportDirective",
+        "src": "147:88:35",
+        "nodes": [],
+        "absolutePath": "../contracts/src/A3/interfaces/SAnswerConditionalCheck.sol",
+        "file": "src/A3/interfaces/SAnswerConditionalCheck.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 2278,
+        "sourceUnit": 37,
+        "symbolAliases": [
+          {
+            "foreign": {
+              "id": 2195,
+              "name": "SAnswerConditionalCheck",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 36,
+              "src": "156:23:35",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          }
+        ],
+        "unitAlias": ""
+      },
+      {
+        "id": 2277,
+        "nodeType": "ContractDefinition",
+        "src": "237:1075:35",
+        "nodes": [
+          {
+            "id": 2257,
+            "nodeType": "FunctionDefinition",
+            "src": "456:599:35",
+            "nodes": [],
+            "body": {
+              "id": 2256,
+              "nodeType": "Block",
+              "src": "575:480:35",
+              "nodes": [],
+              "statements": [
+                {
+                  "assignments": [
+                    2216
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 2216,
+                      "mutability": "mutable",
+                      "name": "retOk",
+                      "nameLocation": "659:5:35",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 2256,
+                      "src": "654:10:35",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      },
+                      "typeName": {
+                        "id": 2215,
+                        "name": "bool",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "654:4:35",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 2218,
+                  "initialValue": {
+                    "hexValue": "66616c7365",
+                    "id": 2217,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "bool",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "667:5:35",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    },
+                    "value": "false"
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "654:18:35"
+                },
+                {
+                  "condition": {
+                    "commonType": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    },
+                    "id": 2222,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "expression": {
+                        "id": 2219,
+                        "name": "person",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 2204,
+                        "src": "684:6:35",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Person_$35_memory_ptr",
+                          "typeString": "struct SAnswerConditionalCheck.Person memory"
+                        }
+                      },
+                      "id": 2220,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "691:4:35",
+                      "memberName": "debt",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 34,
+                      "src": "684:11:35",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "==",
+                    "rightExpression": {
+                      "hexValue": "30",
+                      "id": 2221,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "699:1:35",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_rational_0_by_1",
+                        "typeString": "int_const 0"
+                      },
+                      "value": "0"
+                    },
+                    "src": "684:16:35",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": {
+                    "condition": {
+                      "commonType": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      },
+                      "id": 2241,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "leftExpression": {
+                        "components": [
+                          {
+                            "commonType": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            },
+                            "id": 2238,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "leftExpression": {
+                              "commonType": {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                              },
+                              "id": 2235,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "leftExpression": {
+                                "id": 2232,
+                                "name": "amount",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": 2206,
+                                "src": "832:6:35",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_uint256",
+                                  "typeString": "uint256"
+                                }
+                              },
+                              "nodeType": "BinaryOperation",
+                              "operator": "*",
+                              "rightExpression": {
+                                "expression": {
+                                  "id": 2233,
+                                  "name": "person",
+                                  "nodeType": "Identifier",
+                                  "overloadedDeclarations": [],
+                                  "referencedDeclaration": 2204,
+                                  "src": "841:6:35",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_struct$_Person_$35_memory_ptr",
+                                    "typeString": "struct SAnswerConditionalCheck.Person memory"
+                                  }
+                                },
+                                "id": 2234,
+                                "isConstant": false,
+                                "isLValue": true,
+                                "isPure": false,
+                                "lValueRequested": false,
+                                "memberLocation": "848:10:35",
+                                "memberName": "collateral",
+                                "nodeType": "MemberAccess",
+                                "referencedDeclaration": 32,
+                                "src": "841:17:35",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_uint256",
+                                  "typeString": "uint256"
+                                }
+                              },
+                              "src": "832:26:35",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                              }
+                            },
+                            "nodeType": "BinaryOperation",
+                            "operator": "/",
+                            "rightExpression": {
+                              "expression": {
+                                "id": 2236,
+                                "name": "person",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": 2204,
+                                "src": "861:6:35",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_struct$_Person_$35_memory_ptr",
+                                  "typeString": "struct SAnswerConditionalCheck.Person memory"
+                                }
+                              },
+                              "id": 2237,
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "memberLocation": "868:4:35",
+                              "memberName": "debt",
+                              "nodeType": "MemberAccess",
+                              "referencedDeclaration": 34,
+                              "src": "861:11:35",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                              }
+                            },
+                            "src": "832:40:35",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          }
+                        ],
+                        "id": 2239,
+                        "isConstant": false,
+                        "isInlineArray": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "TupleExpression",
+                        "src": "831:42:35",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "nodeType": "BinaryOperation",
+                      "operator": ">",
+                      "rightExpression": {
+                        "hexValue": "313130",
+                        "id": 2240,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "876:3:35",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_rational_110_by_1",
+                          "typeString": "int_const 110"
+                        },
+                        "value": "110"
+                      },
+                      "src": "831:48:35",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "falseBody": {
+                      "id": 2251,
+                      "nodeType": "Block",
+                      "src": "950:78:35",
+                      "statements": [
+                        {
+                          "expression": {
+                            "arguments": [
+                              {
+                                "hexValue": "436f6c6c61746572616c697a6174696f6e20726174696f20697320616c726561647920746f6f2068696768",
+                                "id": 2248,
+                                "isConstant": false,
+                                "isLValue": false,
+                                "isPure": true,
+                                "kind": "string",
+                                "lValueRequested": false,
+                                "nodeType": "Literal",
+                                "src": "971:45:35",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_stringliteral_f7895da7855699e862e5982991293ac11efaa1c0e617a5abf5091503f7d659d3",
+                                  "typeString": "literal_string \"Collateralization ratio is already too high\""
+                                },
+                                "value": "Collateralization ratio is already too high"
+                              }
+                            ],
+                            "expression": {
+                              "argumentTypes": [
+                                {
+                                  "typeIdentifier": "t_stringliteral_f7895da7855699e862e5982991293ac11efaa1c0e617a5abf5091503f7d659d3",
+                                  "typeString": "literal_string \"Collateralization ratio is already too high\""
+                                }
+                              ],
+                              "id": 2247,
+                              "name": "revert",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [
+                                -19,
+                                -19
+                              ],
+                              "referencedDeclaration": -19,
+                              "src": "964:6:35",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_function_revert_pure$_t_string_memory_ptr_$returns$__$",
+                                "typeString": "function (string memory) pure"
+                              }
+                            },
+                            "id": 2249,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "kind": "functionCall",
+                            "lValueRequested": false,
+                            "nameLocations": [],
+                            "names": [],
+                            "nodeType": "FunctionCall",
+                            "src": "964:53:35",
+                            "tryCall": false,
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_tuple$__$",
+                              "typeString": "tuple()"
+                            }
+                          },
+                          "id": 2250,
+                          "nodeType": "ExpressionStatement",
+                          "src": "964:53:35"
+                        }
+                      ]
+                    },
+                    "id": 2252,
+                    "nodeType": "IfStatement",
+                    "src": "828:200:35",
+                    "trueBody": {
+                      "id": 2246,
+                      "nodeType": "Block",
+                      "src": "888:40:35",
+                      "statements": [
+                        {
+                          "expression": {
+                            "id": 2244,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "leftHandSide": {
+                              "id": 2242,
+                              "name": "retOk",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 2216,
+                              "src": "906:5:35",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_bool",
+                                "typeString": "bool"
+                              }
+                            },
+                            "nodeType": "Assignment",
+                            "operator": "=",
+                            "rightHandSide": {
+                              "hexValue": "74727565",
+                              "id": 2243,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": true,
+                              "kind": "bool",
+                              "lValueRequested": false,
+                              "nodeType": "Literal",
+                              "src": "914:4:35",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_bool",
+                                "typeString": "bool"
+                              },
+                              "value": "true"
+                            },
+                            "src": "906:12:35",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_bool",
+                              "typeString": "bool"
+                            }
+                          },
+                          "id": 2245,
+                          "nodeType": "ExpressionStatement",
+                          "src": "906:12:35"
+                        }
+                      ]
+                    }
+                  },
+                  "id": 2253,
+                  "nodeType": "IfStatement",
+                  "src": "681:347:35",
+                  "trueBody": {
+                    "id": 2231,
+                    "nodeType": "Block",
+                    "src": "709:106:35",
+                    "statements": [
+                      {
+                        "expression": {
+                          "id": 2225,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftHandSide": {
+                            "id": 2223,
+                            "name": "retOk",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 2216,
+                            "src": "723:5:35",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_bool",
+                              "typeString": "bool"
+                            }
+                          },
+                          "nodeType": "Assignment",
+                          "operator": "=",
+                          "rightHandSide": {
+                            "hexValue": "74727565",
+                            "id": 2224,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "bool",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "731:4:35",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_bool",
+                              "typeString": "bool"
+                            },
+                            "value": "true"
+                          },
+                          "src": "723:12:35",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_bool",
+                            "typeString": "bool"
+                          }
+                        },
+                        "id": 2226,
+                        "nodeType": "ExpressionStatement",
+                        "src": "723:12:35"
+                      },
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "hexValue": "436f6c6c61746572616c697a6174696f6e20726174696f206d757374206265206d6f7265207468616e2031313025",
+                              "id": 2228,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": true,
+                              "kind": "string",
+                              "lValueRequested": false,
+                              "nodeType": "Literal",
+                              "src": "756:48:35",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_stringliteral_55361d244ce576c004975195488e7beefed88de31518ddc7e437e4a14a18550a",
+                                "typeString": "literal_string \"Collateralization ratio must be more than 110%\""
+                              },
+                              "value": "Collateralization ratio must be more than 110%"
+                            }
+                          ],
+                          "expression": {
+                            "argumentTypes": [
+                              {
+                                "typeIdentifier": "t_stringliteral_55361d244ce576c004975195488e7beefed88de31518ddc7e437e4a14a18550a",
+                                "typeString": "literal_string \"Collateralization ratio must be more than 110%\""
+                              }
+                            ],
+                            "id": 2227,
+                            "name": "revert",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [
+                              -19,
+                              -19
+                            ],
+                            "referencedDeclaration": -19,
+                            "src": "749:6:35",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_function_revert_pure$_t_string_memory_ptr_$returns$__$",
+                              "typeString": "function (string memory) pure"
+                            }
+                          },
+                          "id": 2229,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "kind": "functionCall",
+                          "lValueRequested": false,
+                          "nameLocations": [],
+                          "names": [],
+                          "nodeType": "FunctionCall",
+                          "src": "749:56:35",
+                          "tryCall": false,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_tuple$__$",
+                            "typeString": "tuple()"
+                          }
+                        },
+                        "id": 2230,
+                        "nodeType": "ExpressionStatement",
+                        "src": "749:56:35"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "expression": {
+                    "id": 2254,
+                    "name": "retOk",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 2216,
+                    "src": "1043:5:35",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "functionReturnParameters": 2214,
+                  "id": 2255,
+                  "nodeType": "Return",
+                  "src": "1036:12:35"
+                }
+              ]
+            },
+            "baseFunctions": [
+              25
+            ],
+            "documentation": {
+              "id": 2201,
+              "nodeType": "StructuredDocumentation",
+              "src": "328:122:35",
+              "text": "A-3. 制御構文(if, for, require, revert), modifier, アクセス制御, オーナー権限を試す"
+            },
+            "functionSelector": "32c3095f",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [
+              {
+                "arguments": [
+                  {
+                    "id": 2210,
+                    "name": "person",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 2204,
+                    "src": "548:6:35",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_Person_$35_memory_ptr",
+                      "typeString": "struct SAnswerConditionalCheck.Person memory"
+                    }
+                  }
+                ],
+                "id": 2211,
+                "kind": "modifierInvocation",
+                "modifierName": {
+                  "id": 2209,
+                  "name": "onlyYou",
+                  "nameLocations": [
+                    "540:7:35"
+                  ],
+                  "nodeType": "IdentifierPath",
+                  "referencedDeclaration": 2276,
+                  "src": "540:7:35"
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "540:15:35"
+              }
+            ],
+            "name": "borrowMore",
+            "nameLocation": "465:10:35",
+            "overrides": {
+              "id": 2208,
+              "nodeType": "OverrideSpecifier",
+              "overrides": [],
+              "src": "531:8:35"
+            },
+            "parameters": {
+              "id": 2207,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2204,
+                  "mutability": "mutable",
+                  "name": "person",
+                  "nameLocation": "490:6:35",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2257,
+                  "src": "476:20:35",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_Person_$35_memory_ptr",
+                    "typeString": "struct SAnswerConditionalCheck.Person"
+                  },
+                  "typeName": {
+                    "id": 2203,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 2202,
+                      "name": "Person",
+                      "nameLocations": [
+                        "476:6:35"
+                      ],
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 35,
+                      "src": "476:6:35"
+                    },
+                    "referencedDeclaration": 35,
+                    "src": "476:6:35",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_Person_$35_storage_ptr",
+                      "typeString": "struct SAnswerConditionalCheck.Person"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 2206,
+                  "mutability": "mutable",
+                  "name": "amount",
+                  "nameLocation": "506:6:35",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2257,
+                  "src": "498:14:35",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 2205,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "498:7:35",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "475:38:35"
+            },
+            "returnParameters": {
+              "id": 2214,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2213,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2257,
+                  "src": "565:4:35",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 2212,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "565:4:35",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "564:6:35"
+            },
+            "scope": 2277,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 2276,
+            "nodeType": "ModifierDefinition",
+            "src": "1061:249:35",
+            "nodes": [],
+            "body": {
+              "id": 2275,
+              "nodeType": "Block",
+              "src": "1100:210:35",
+              "nodes": [],
+              "statements": [
+                {
+                  "condition": {
+                    "commonType": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    },
+                    "id": 2266,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "expression": {
+                        "id": 2262,
+                        "name": "person",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 2260,
+                        "src": "1139:6:35",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Person_$35_memory_ptr",
+                          "typeString": "struct SAnswerConditionalCheck.Person memory"
+                        }
+                      },
+                      "id": 2263,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "1146:4:35",
+                      "memberName": "addr",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 30,
+                      "src": "1139:11:35",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "==",
+                    "rightExpression": {
+                      "expression": {
+                        "id": 2264,
+                        "name": "msg",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": -15,
+                        "src": "1154:3:35",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_magic_message",
+                          "typeString": "msg"
+                        }
+                      },
+                      "id": 2265,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "1158:6:35",
+                      "memberName": "sender",
+                      "nodeType": "MemberAccess",
+                      "src": "1154:10:35",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "src": "1139:25:35",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": {
+                    "id": 2273,
+                    "nodeType": "Block",
+                    "src": "1222:73:35",
+                    "statements": [
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "hexValue": "596f7520617265206e6f7420746865206f776e6572206f662074686973206163636f756e742e",
+                              "id": 2270,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": true,
+                              "kind": "string",
+                              "lValueRequested": false,
+                              "nodeType": "Literal",
+                              "src": "1243:40:35",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_stringliteral_add0e6b8020a20b310a2fb75fb17c5704f0a4553df1356397c9de78c8e19f138",
+                                "typeString": "literal_string \"You are not the owner of this account.\""
+                              },
+                              "value": "You are not the owner of this account."
+                            }
+                          ],
+                          "expression": {
+                            "argumentTypes": [
+                              {
+                                "typeIdentifier": "t_stringliteral_add0e6b8020a20b310a2fb75fb17c5704f0a4553df1356397c9de78c8e19f138",
+                                "typeString": "literal_string \"You are not the owner of this account.\""
+                              }
+                            ],
+                            "id": 2269,
+                            "name": "revert",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [
+                              -19,
+                              -19
+                            ],
+                            "referencedDeclaration": -19,
+                            "src": "1236:6:35",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_function_revert_pure$_t_string_memory_ptr_$returns$__$",
+                              "typeString": "function (string memory) pure"
+                            }
+                          },
+                          "id": 2271,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "kind": "functionCall",
+                          "lValueRequested": false,
+                          "nameLocations": [],
+                          "names": [],
+                          "nodeType": "FunctionCall",
+                          "src": "1236:48:35",
+                          "tryCall": false,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_tuple$__$",
+                            "typeString": "tuple()"
+                          }
+                        },
+                        "id": 2272,
+                        "nodeType": "ExpressionStatement",
+                        "src": "1236:48:35"
+                      }
+                    ]
+                  },
+                  "id": 2274,
+                  "nodeType": "IfStatement",
+                  "src": "1136:159:35",
+                  "trueBody": {
+                    "id": 2268,
+                    "nodeType": "Block",
+                    "src": "1174:26:35",
+                    "statements": [
+                      {
+                        "id": 2267,
+                        "nodeType": "PlaceholderStatement",
+                        "src": "1188:1:35"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "name": "onlyYou",
+            "nameLocation": "1070:7:35",
+            "parameters": {
+              "id": 2261,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2260,
+                  "mutability": "mutable",
+                  "name": "person",
+                  "nameLocation": "1092:6:35",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2276,
+                  "src": "1078:20:35",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_Person_$35_memory_ptr",
+                    "typeString": "struct SAnswerConditionalCheck.Person"
+                  },
+                  "typeName": {
+                    "id": 2259,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 2258,
+                      "name": "Person",
+                      "nameLocations": [
+                        "1078:6:35"
+                      ],
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 35,
+                      "src": "1078:6:35"
+                    },
+                    "referencedDeclaration": 35,
+                    "src": "1078:6:35",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_Person_$35_storage_ptr",
+                      "typeString": "struct SAnswerConditionalCheck.Person"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1077:22:35"
+            },
+            "virtual": false,
+            "visibility": "internal"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 2197,
+              "name": "IAnswerConditionalCheck",
+              "nameLocations": [
+                "272:23:35"
+              ],
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 26,
+              "src": "272:23:35"
+            },
+            "id": 2198,
+            "nodeType": "InheritanceSpecifier",
+            "src": "272:23:35"
+          },
+          {
+            "baseName": {
+              "id": 2199,
+              "name": "SAnswerConditionalCheck",
+              "nameLocations": [
+                "297:23:35"
+              ],
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 36,
+              "src": "297:23:35"
+            },
+            "id": 2200,
+            "nodeType": "InheritanceSpecifier",
+            "src": "297:23:35"
+          }
+        ],
+        "canonicalName": "AnswerConditionalCheck",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          2277,
+          36,
+          26
+        ],
+        "name": "AnswerConditionalCheck",
+        "nameLocation": "246:22:35",
+        "scope": 2278,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 35
+}

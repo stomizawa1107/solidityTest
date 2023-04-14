@@ -1,0 +1,675 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "uint256",
+              "name": "saleId",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "amount",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "deadline",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint8",
+              "name": "v",
+              "type": "uint8"
+            },
+            {
+              "internalType": "bytes32",
+              "name": "r",
+              "type": "bytes32"
+            },
+            {
+              "internalType": "bytes32",
+              "name": "s",
+              "type": "bytes32"
+            }
+          ],
+          "internalType": "struct SAnswerPermit.MatchOrderArgs",
+          "name": "_args",
+          "type": "tuple"
+        }
+      ],
+      "name": "matchOrder",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "uint256",
+              "name": "tokenId",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "price",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "deadline",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint8",
+              "name": "v",
+              "type": "uint8"
+            },
+            {
+              "internalType": "bytes32",
+              "name": "r",
+              "type": "bytes32"
+            },
+            {
+              "internalType": "bytes32",
+              "name": "s",
+              "type": "bytes32"
+            }
+          ],
+          "internalType": "struct SAnswerPermit.PostOrderArgs",
+          "name": "_args",
+          "type": "tuple"
+        }
+      ],
+      "name": "postOrder",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "saleId",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_currency",
+          "type": "address"
+        }
+      ],
+      "name": "setPermitCurrencyAddress",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_nft",
+          "type": "address"
+        }
+      ],
+      "name": "setPermitNFTAddress",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "matchOrder((uint256,uint256,uint256,uint8,bytes32,bytes32))": "bbc5c2a6",
+    "postOrder((uint256,uint256,uint256,uint8,bytes32,bytes32))": "f413d2b6",
+    "setPermitCurrencyAddress(address)": "e75c9618",
+    "setPermitNFTAddress(address)": "e7243381"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"components\":[{\"internalType\":\"uint256\",\"name\":\"saleId\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"deadline\",\"type\":\"uint256\"},{\"internalType\":\"uint8\",\"name\":\"v\",\"type\":\"uint8\"},{\"internalType\":\"bytes32\",\"name\":\"r\",\"type\":\"bytes32\"},{\"internalType\":\"bytes32\",\"name\":\"s\",\"type\":\"bytes32\"}],\"internalType\":\"struct SAnswerPermit.MatchOrderArgs\",\"name\":\"_args\",\"type\":\"tuple\"}],\"name\":\"matchOrder\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"components\":[{\"internalType\":\"uint256\",\"name\":\"tokenId\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"price\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"deadline\",\"type\":\"uint256\"},{\"internalType\":\"uint8\",\"name\":\"v\",\"type\":\"uint8\"},{\"internalType\":\"bytes32\",\"name\":\"r\",\"type\":\"bytes32\"},{\"internalType\":\"bytes32\",\"name\":\"s\",\"type\":\"bytes32\"}],\"internalType\":\"struct SAnswerPermit.PostOrderArgs\",\"name\":\"_args\",\"type\":\"tuple\"}],\"name\":\"postOrder\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"saleId\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_currency\",\"type\":\"address\"}],\"name\":\"setPermitCurrencyAddress\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_nft\",\"type\":\"address\"}],\"name\":\"setPermitNFTAddress\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"../contracts/src/A6/interfaces/IAnswerPermit.sol\":\"IAnswerPermit\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@openzeppelin/=../util/lib/openzeppelin-contracts/\",\":ds-test/=../util/lib/forge-std/lib/ds-test/src/\",\":forge-std/=../util/lib/forge-std/src/\",\":openzeppelin-contracts/=../util/lib/openzeppelin-contracts/\",\":scal-std/=../util/lib/scal-std/src/\",\":src/=../contracts/src/\",\":test/=../test/\"]},\"sources\":{\"../contracts/src/A6/interfaces/IAnswerPermit.sol\":{\"keccak256\":\"0x12a2529ad4d2256f036bd8d6b337a74748d53bafc815481d1140d629039101e6\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://c1c12f43e40070906be70e445391ab957131a5f09e6876578d50177e02d63f71\",\"dweb:/ipfs/QmeEki8amffRSZbRmvsXnDRV4k2RHxjzqGm1YuQkmPHZNd\"]},\"../contracts/src/A6/interfaces/SAnswerPermit.sol\":{\"keccak256\":\"0x27ea62173dcaf791b4c31ac663e9aee4b8557426bd68b9a65c7372f4eb872ad0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://72932cd564c32f622aa28594c9a3c85b3b4de76c6ef591f2628282207ef5b55a\",\"dweb:/ipfs/QmRpTmqncJwAkw5usdga5JCTrJNV7VwBcxpV4zbAE2Jqxe\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.19+commit.7dd6d404"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "struct SAnswerPermit.MatchOrderArgs",
+              "name": "_args",
+              "type": "tuple",
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "saleId",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "amount",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "deadline",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint8",
+                  "name": "v",
+                  "type": "uint8"
+                },
+                {
+                  "internalType": "bytes32",
+                  "name": "r",
+                  "type": "bytes32"
+                },
+                {
+                  "internalType": "bytes32",
+                  "name": "s",
+                  "type": "bytes32"
+                }
+              ]
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "matchOrder"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "struct SAnswerPermit.PostOrderArgs",
+              "name": "_args",
+              "type": "tuple",
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "tokenId",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "price",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "deadline",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint8",
+                  "name": "v",
+                  "type": "uint8"
+                },
+                {
+                  "internalType": "bytes32",
+                  "name": "r",
+                  "type": "bytes32"
+                },
+                {
+                  "internalType": "bytes32",
+                  "name": "s",
+                  "type": "bytes32"
+                }
+              ]
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "postOrder",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "saleId",
+              "type": "uint256"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "_currency",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "setPermitCurrencyAddress"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "_nft",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "setPermitNFTAddress"
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":@openzeppelin/=../util/lib/openzeppelin-contracts/",
+        ":ds-test/=../util/lib/forge-std/lib/ds-test/src/",
+        ":forge-std/=../util/lib/forge-std/src/",
+        ":openzeppelin-contracts/=../util/lib/openzeppelin-contracts/",
+        ":scal-std/=../util/lib/scal-std/src/",
+        ":src/=../contracts/src/",
+        ":test/=../test/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "../contracts/src/A6/interfaces/IAnswerPermit.sol": "IAnswerPermit"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "../contracts/src/A6/interfaces/IAnswerPermit.sol": {
+        "keccak256": "0x12a2529ad4d2256f036bd8d6b337a74748d53bafc815481d1140d629039101e6",
+        "urls": [
+          "bzz-raw://c1c12f43e40070906be70e445391ab957131a5f09e6876578d50177e02d63f71",
+          "dweb:/ipfs/QmeEki8amffRSZbRmvsXnDRV4k2RHxjzqGm1YuQkmPHZNd"
+        ],
+        "license": "MIT"
+      },
+      "../contracts/src/A6/interfaces/SAnswerPermit.sol": {
+        "keccak256": "0x27ea62173dcaf791b4c31ac663e9aee4b8557426bd68b9a65c7372f4eb872ad0",
+        "urls": [
+          "bzz-raw://72932cd564c32f622aa28594c9a3c85b3b4de76c6ef591f2628282207ef5b55a",
+          "dweb:/ipfs/QmRpTmqncJwAkw5usdga5JCTrJNV7VwBcxpV4zbAE2Jqxe"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "../contracts/src/A6/interfaces/IAnswerPermit.sol",
+    "id": 131,
+    "exportedSymbols": {
+      "IAnswerPermit": [
+        130
+      ],
+      "SAnswerPermit": [
+        254
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:424:7",
+    "nodes": [
+      {
+        "id": 103,
+        "nodeType": "PragmaDirective",
+        "src": "32:24:7",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".17"
+        ]
+      },
+      {
+        "id": 105,
+        "nodeType": "ImportDirective",
+        "src": "58:68:7",
+        "nodes": [],
+        "absolutePath": "../contracts/src/A6/interfaces/SAnswerPermit.sol",
+        "file": "src/A6/interfaces/SAnswerPermit.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 131,
+        "sourceUnit": 255,
+        "symbolAliases": [
+          {
+            "foreign": {
+              "id": 104,
+              "name": "SAnswerPermit",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 254,
+              "src": "67:13:7",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          }
+        ],
+        "unitAlias": ""
+      },
+      {
+        "id": 130,
+        "nodeType": "ContractDefinition",
+        "src": "128:328:7",
+        "nodes": [
+          {
+            "id": 110,
+            "nodeType": "FunctionDefinition",
+            "src": "158:52:7",
+            "nodes": [],
+            "functionSelector": "e7243381",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "setPermitNFTAddress",
+            "nameLocation": "167:19:7",
+            "parameters": {
+              "id": 108,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 107,
+                  "mutability": "mutable",
+                  "name": "_nft",
+                  "nameLocation": "195:4:7",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 110,
+                  "src": "187:12:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 106,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "187:7:7",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "186:14:7"
+            },
+            "returnParameters": {
+              "id": 109,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "209:0:7"
+            },
+            "scope": 130,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 115,
+            "nodeType": "FunctionDefinition",
+            "src": "215:62:7",
+            "nodes": [],
+            "functionSelector": "e75c9618",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "setPermitCurrencyAddress",
+            "nameLocation": "224:24:7",
+            "parameters": {
+              "id": 113,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 112,
+                  "mutability": "mutable",
+                  "name": "_currency",
+                  "nameLocation": "257:9:7",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 115,
+                  "src": "249:17:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 111,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "249:7:7",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "248:19:7"
+            },
+            "returnParameters": {
+              "id": 114,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "276:0:7"
+            },
+            "scope": 130,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 123,
+            "nodeType": "FunctionDefinition",
+            "src": "282:95:7",
+            "nodes": [],
+            "functionSelector": "f413d2b6",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "postOrder",
+            "nameLocation": "291:9:7",
+            "parameters": {
+              "id": 119,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 118,
+                  "mutability": "mutable",
+                  "name": "_args",
+                  "nameLocation": "336:5:7",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 123,
+                  "src": "301:40:7",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_PostOrderArgs_$240_memory_ptr",
+                    "typeString": "struct SAnswerPermit.PostOrderArgs"
+                  },
+                  "typeName": {
+                    "id": 117,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 116,
+                      "name": "SAnswerPermit.PostOrderArgs",
+                      "nameLocations": [
+                        "301:13:7",
+                        "315:13:7"
+                      ],
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 240,
+                      "src": "301:27:7"
+                    },
+                    "referencedDeclaration": 240,
+                    "src": "301:27:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_PostOrderArgs_$240_storage_ptr",
+                      "typeString": "struct SAnswerPermit.PostOrderArgs"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "300:42:7"
+            },
+            "returnParameters": {
+              "id": 122,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 121,
+                  "mutability": "mutable",
+                  "name": "saleId",
+                  "nameLocation": "369:6:7",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 123,
+                  "src": "361:14:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 120,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "361:7:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "360:16:7"
+            },
+            "scope": 130,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 129,
+            "nodeType": "FunctionDefinition",
+            "src": "382:72:7",
+            "nodes": [],
+            "functionSelector": "bbc5c2a6",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "matchOrder",
+            "nameLocation": "391:10:7",
+            "parameters": {
+              "id": 127,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 126,
+                  "mutability": "mutable",
+                  "name": "_args",
+                  "nameLocation": "438:5:7",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 129,
+                  "src": "402:41:7",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_MatchOrderArgs_$253_memory_ptr",
+                    "typeString": "struct SAnswerPermit.MatchOrderArgs"
+                  },
+                  "typeName": {
+                    "id": 125,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 124,
+                      "name": "SAnswerPermit.MatchOrderArgs",
+                      "nameLocations": [
+                        "402:13:7",
+                        "416:14:7"
+                      ],
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 253,
+                      "src": "402:28:7"
+                    },
+                    "referencedDeclaration": 253,
+                    "src": "402:28:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_MatchOrderArgs_$253_storage_ptr",
+                      "typeString": "struct SAnswerPermit.MatchOrderArgs"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "401:43:7"
+            },
+            "returnParameters": {
+              "id": 128,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "453:0:7"
+            },
+            "scope": 130,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IAnswerPermit",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          130
+        ],
+        "name": "IAnswerPermit",
+        "nameLocation": "138:13:7",
+        "scope": 131,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 7
+}
