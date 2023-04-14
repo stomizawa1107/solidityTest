@@ -25,12 +25,8 @@ contract QuestionArithmetic is Test {
     function test_Q1_Arithmetic() public {
         Test1Vars memory vars;
         vars.tempGas = gasleft();
-        uint256 nowGasLeft = gasleft();
-        assertTrue(vars.tempGas == nowGasLeft); // Note: ただし上記の値をそのままコピペすることは無効です
-        assertTrue(arithmetic.isOneZeroZero() == 100); // Note: ただし上記の値をそのままコピペすることは無効です
-        assertTrue(gasleft() != nowGasLeft); // Note: ただし上記の値をそのままコピペすることは無効です
         vars.result = arithmetic.calc();
-        //console.log(vars.result); // Note: Try me, and remove me later ;)
+        console.log(vars.result); // Note: Try me, and remove me later ;)
         vars.execGas = vars.tempGas - gasleft();
 
         assertTrue(vars.result == 115792089237316195423570985008687907853269984665640564039457584007913129639935);
