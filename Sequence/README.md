@@ -1,0 +1,10 @@
+InputPostOrdrForm.md・・・入力フォーム表示のシーケンス
+PostorderProcess.md・・・PostOrder全体のシーケンス
+ERC20permit.md・・・PostorderProcess.md内で呼ばれるパーミットのシーケンス
+ERC20approve.md・・・ERC20permit.md内で呼ばれるapproveのシーケンスになります
+InputMatchOrderForm.md・・・購入フォームのシーケンス
+MatchOrderProcess.md・・・MatchOrderProcess全体のシーケンス
+ERC721permit.md・・・MatchOrderProcess.md内で呼ばれるパーミットのシーケンス
+ERC721approve.md・・・ERC721permit.md内で呼ばれるapproveのシーケンスになります
+ERC721TransferFrom.md・・・MatchOrderProcess.md内で呼ばれるトークン用のTrasferFromのシーケンス
+ERC20TransferFrom.md・・・MatchOrderProcess.md内で呼ばれるamount用のTrasferFromのシーケンス
