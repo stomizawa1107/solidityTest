@@ -22,20 +22,13 @@ contract QuestionNativeToken is Test, IQuestionNativeToken {
     function test_Q4_NativeToken() public {
         TestVars memory vars;
 
-        //アリスのアドレスを設定
         vars.alice.addr = makeAddr("Alice");
-        //アリスのスコアを100に設定
         vars.alice.score = 100;
-        //アリスのアドレスに1 etherをセット
         vm.deal(vars.alice.addr, 1 ether);
-        //ボブのアドレスを設定
         vars.bob.addr = makeAddr("Bob");
-        //ボブのスコアを60に設定
         vars.bob.score = 60;
-        //ボブに２ etherをセット
         vm.deal(vars.bob.addr, 2 ether);
 
-        //アリスのアドレスに設定
         vm.prank(vars.alice.addr);
         yourContract.gimmeLicense(vars.alice);
 
