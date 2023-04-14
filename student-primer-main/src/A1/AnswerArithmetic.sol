@@ -24,7 +24,7 @@ contract AnswerArithmetic {
     function subOneHundred(uint256 val) external view returns (uint256) {
       uint256 num = 0;
       unchecked{
-          num = 100 - val;
+          num = oneHundred - val;
       }
       return num; // Note: Fix me!
     }

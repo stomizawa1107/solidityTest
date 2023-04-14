@@ -27,29 +27,29 @@ contract QuestionArithmetic is Test {
         vars.tempGas = gasleft();
         vars.execGas = vars.tempGas - gasleft();
         uint256 nowGasLeft = gasleft();
-        console.log(vars.tempGas);
-        console.log(nowGasLeft);
-        console.log(gasleft());
+        //console.log(vars.tempGas);
+        //console.log(nowGasLeft);
+        //console.log(gasleft());
         assertTrue(vars.tempGas != nowGasLeft); // Note: ただし上記の値をそのままコピペすることは無効です
         assertTrue(arithmetic.retOneHundred() == 100); // Note: ただし上記の値をそのままコピペすることは無効です
         assertTrue(gasleft() != nowGasLeft); // Note: ただし上記の値をそのままコピペすることは無効です
         vars.result = arithmetic.calc();
-        console.log(vars.result); // Note: Try me, and remove me later ;)
+        //console.log(vars.result); // Note: Try me, and remove me later ;)
 
         uint256 resultMath = arithmetic.nino(256);
         assertTrue(resultMath == 0); // Note:
-        console.log(resultMath);
+        //console.log(resultMath);
         resultMath = arithmetic.nino(255);
-        console.log(resultMath);
+        //console.log(resultMath);
         
-        uint256 resultMath2 = arithmetic.subOneHundred(100);
-        console.log(resultMath2);
-        assertTrue(resultMath2 == 0); // Note:
+        uint256 resultSub = arithmetic.subOneHundred(100);
+        //console.log(resultSub);
+        assertTrue(resultSub == 0); // Note:
 
-        uint256 resultMath3 = arithmetic.subOneHundred(101);
-        console.log(arithmetic.subOneHundred(101));
-        console.log(type(uint256).max);
-        assertTrue(resultMath3 == type(uint256).max); // Note:
+        resultSub = arithmetic.subOneHundred(101);
+        //console.log(arithmetic.subOneHundred(101));
+        //console.log(type(uint256).max);
+        assertTrue(resultSub == type(uint256).max); // Note:
 
         assertTrue(resultMath == 2 ** 255); // Note:        assertTrue(resultMath == 2 ** 255); // Note:
         assertTrue(vars.result == 115792089237316195423570985008687907853269984665640564039457584007913129639935);
