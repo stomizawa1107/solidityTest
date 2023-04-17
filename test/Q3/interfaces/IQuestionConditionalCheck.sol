@@ -8,8 +8,10 @@ interface IQuestionConditionalCheck {
         SAnswerConditionalCheck.Person alice;
         SAnswerConditionalCheck.Person bob;
         SAnswerConditionalCheck.Person carl;
+        SAnswerConditionalCheck.Person dev;
         bool result1;
         bool result2;
         bool result3;
+        bool result4;
     }
 }

@@ -38,6 +38,9 @@ contract QuestionConditionalCheck is Test, IQuestionConditionalCheck {
         vars.carl.addr = makeAddr("Carl");
         vars.carl.collateral = 200;
         vars.carl.debt = 200;
+        vars.dev.addr = makeAddr("Dev");
+        vars.dev.collateral = 0;
+        vars.dev.debt = 0;
 
         vm.prank(vars.alice.addr);
         vm.expectRevert("Collateralization ratio must be more than 110%");
@@ -53,6 +56,12 @@ contract QuestionConditionalCheck is Test, IQuestionConditionalCheck {
         vm.prank(vars.carl.addr);
         vm.expectRevert("Collateralization ratio is already too high");
         vars.result3 = yourContract.borrowMore(vars.carl, 100);
+
+        vm.expectRevert("You are not the owner of this account.");
+        vars.result4 = yourContract.borrowMore(vars.dev, 100);
+        vm.prank(vars.dev.addr);
+        vm.expectRevert("Collateralization ratio must be more than 110%");
+        vars.result4 = yourContract.borrowMore(vars.dev, 100);
 
         assertEq(vars.result1, false);
         assertEq(vars.result2, true);

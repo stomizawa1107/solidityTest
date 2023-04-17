@@ -9,31 +9,16 @@ contract AnswerConditionalCheck is IAnswerConditionalCheck, SAnswerConditionalCh
     /**
         A-3. 制御構文(if, for, require, revert), modifier, アクセス制御, オーナー権限を試す
      */
-
+    bool public retOk = false;
     function borrowMore(Person memory person, uint256 amount)
-        external override onlyYou(person) returns (bool)
+        external override onlyYou(person) nonDept(person) toHigh(person,amount) returns (bool)
     {
         // Note: Fill me!
-       // console.log(person.debt);
-       
-       bool retOk = false;
-       if(person.debt == 0)
-       {
-            retOk = true;
-            revert("Collateralization ratio must be more than 110%");
-       }
-       else if((amount * person.collateral / person.debt) > 110)
-       {    
-            retOk = true;
-       }
-        else
-        {
-            revert("Collateralization ratio is already too high");
-        }
+        retOk = true;
        return retOk;
     }
 
-    modifier onlyYou(Person memory person) {
+    modifier onlyYou(Person memory person)  {
         // Note: Fill me!
         if(person.addr == msg.sender)
         {
@@ -43,6 +28,29 @@ contract AnswerConditionalCheck is IAnswerConditionalCheck, SAnswerConditionalCh
         {
             revert("You are not the owner of this account.");
         }
-        
+    }
+
+    modifier nonDept(Person memory person) {
+       if(person.debt == 0)
+       {
+            retOk = false;
+            revert("Collateralization ratio must be more than 110%");
+       }
+       else
+       {
+            _;
+       }
+    }
+
+     modifier toHigh(Person memory person,uint256 amount) {
+       if((amount * person.collateral / person.debt) <= 110)
+       {
+            retOk = false;
+            revert("Collateralization ratio is already too high");
+       }
+       else
+       {
+            _;
+       }
     }
 }
