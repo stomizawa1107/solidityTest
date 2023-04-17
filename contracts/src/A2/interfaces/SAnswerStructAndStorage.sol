@@ -6,6 +6,6 @@ contract SAnswerStructAndStorage {
         string name;
         string description;
         uint256 score; 
-        uint256 ssss;       
+        uint256 luckyNumber;       
     }
 }

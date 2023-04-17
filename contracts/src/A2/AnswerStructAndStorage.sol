@@ -9,8 +9,8 @@ contract AnswerStructAndStorage is SAnswerStructAndStorage {
     */
     mapping(address=> YourScore) public mscore;
 
-    function scores(address _key) public view returns (string memory, string memory, uint256) {
-      return (mscore[_key].name, mscore[_key].description,mscore[_key].score);
+    function scores(address _key) public view returns (string memory, string memory, uint256, uint256) {
+      return (mscore[_key].name, mscore[_key].description,mscore[_key].score,mscore[_key].luckyNumber);
     }
     
     function submitScoreWithCheat(YourScore memory _score) public {
@@ -18,8 +18,25 @@ contract AnswerStructAndStorage is SAnswerStructAndStorage {
       _myScore.name = _score.name;
       _myScore.description = _score.description;
       _myScore.score = _score.score + 50;
+      _myScore.luckyNumber = 7;
       //呼び出し主のスコアを50+50で100に改ざん
       mscore[msg.sender] = _myScore;
       // Note: Fill me!
+    }
+
+    function submitScoreWithCheat(address youradr,YourScore memory _score) public {
+      YourScore memory _myScore;
+      _myScore.name = _score.name;
+      _myScore.description = _score.description;
+      _myScore.score = _score.score + 50;
+      bytes32 hash = keccak256(abi.encodePacked(block.timestamp, _myScore.name));
+      _myScore.luckyNumber =  uint256(hash) % 100;
+      //呼び出し主のスコアを50+50で100に改ざん
+      mscore[youradr] = _myScore;
+      // Note: Fill me!
+      if(_myScore.score > 100)
+      {
+        revert("over100");
+      }
     }
 }
